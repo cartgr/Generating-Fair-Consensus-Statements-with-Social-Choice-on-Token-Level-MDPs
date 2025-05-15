@@ -1,0 +1,72 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 3
+    },
+    "reasoning": "Agent 1 believes that the EU is detrimental to individual countries' cultural identities and emphasizes corporatism and big business. All statements highlight benefits of the EU, which contradicts Agent 1's opinion. However, Statement 3 mentions 'shared values', which could be seen as a nod to cultural aspects, albeit not in the negative light Agent 1 views them. Statement 2 focuses on economic cooperation and trade, which Agent 1 might see as part of the corporatism they criticize. Statement 1 directly contradicts Agent 1's view by stating the UK is stronger within the EU, which is the opposite of Agent 1's belief.",
+    "raw_ranking": [
+      3,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 believes that the EU is detrimental to individual countries' cultural identities and emphasizes corporatism and big business. All statements highlight benefits of the EU, which contradicts Agent 1's opinion. However, Statement 3 mentions 'shared values', which could be seen as a nod to cultural aspects, albeit not in the negative light Agent 1 views them. Statement 2 focuses on economic cooperation and trade, which Agent 1 might see as part of the corporatism they criticize. Statement 1 directly contradicts Agent 1's view by stating the UK is stronger within the EU, which is the opposite of Agent 1's belief.\",\n    \"ranking\": [3, 2, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 3\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 2 believes the UK would be better off inside the EU due to the negative impacts of Brexit on trade and administration. Statement 1 directly aligns with this view by asserting the UK is stronger and more prosperous within the EU. Statement 2 also aligns well by emphasizing economic cooperation and trade benefits, which are key concerns for the agent. Statement 3, while mentioning economic strength, introduces 'shared values' which is not a focus of the agent's stated opinion.",
+    "raw_ranking": [
+      1,
+      2,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 believes the UK would be better off inside the EU due to the negative impacts of Brexit on trade and administration. Statement 1 directly aligns with this view by asserting the UK is stronger and more prosperous within the EU. Statement 2 also aligns well by emphasizing economic cooperation and trade benefits, which are key concerns for the agent. Statement 3, while mentioning economic strength, introduces 'shared values' which is not a focus of the agent's stated opinion.\",\n    \"ranking\": [1, 2, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 3 believes the UK was better off inside the EU due to economic and social disadvantages experienced after leaving. Statement 2 aligns most closely with this view by emphasizing economic cooperation and trade benefits, which are key concerns for the agent. Statement 1 also supports the agent's opinion by highlighting the UK's strength and prosperity within the EU, but it is less specific about the economic aspects. Statement 3, while mentioning economic strength, focuses more on shared values, which is less aligned with the agent's primary concerns about economic and social impacts.",
+    "raw_ranking": [
+      2,
+      1,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 believes the UK was better off inside the EU due to economic and social disadvantages experienced after leaving. Statement 2 aligns most closely with this view by emphasizing economic cooperation and trade benefits, which are key concerns for the agent. Statement 1 also supports the agent's opinion by highlighting the UK's strength and prosperity within the EU, but it is less specific about the economic aspects. Statement 3, while mentioning economic strength, focuses more on shared values, which is less aligned with the agent's primary concerns about economic and social impacts.\",\n    \"ranking\": [2, 1, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 4 emphasizes the importance of being part of a larger group for strength, shared resources, and reduced costs. They also highlight the benefits of economic cooperation and the broader perspective of global cohesion. Statement 2 best captures these aspects by mentioning economic cooperation, trade, and shared resources. Statement 1 aligns with the agent's view on strength and prosperity within the EU, but is less specific about the mechanisms. Statement 3 mentions shared values, which is less emphasized by the agent compared to economic and resource benefits.",
+    "raw_ranking": [
+      2,
+      1,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 emphasizes the importance of being part of a larger group for strength, shared resources, and reduced costs. They also highlight the benefits of economic cooperation and the broader perspective of global cohesion. Statement 2 best captures these aspects by mentioning economic cooperation, trade, and shared resources. Statement 1 aligns with the agent's view on strength and prosperity within the EU, but is less specific about the mechanisms. Statement 3 mentions shared values, which is less emphasized by the agent compared to economic and resource benefits.\",\n    \"ranking\": [2, 1, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 5 strongly believes that the UK is better off within the EU due to economic benefits, improved outcomes, and increased international influence. Statement 1 directly aligns with this view by emphasizing the UK's strength and prosperity within the EU. Statement 2 also aligns well by highlighting economic cooperation and trade, which are key aspects of Agent 5's opinion. Statement 3, while mentioning economic strength, introduces 'shared values' which is not a focus of Agent 5's stated opinion, making it less representative.",
+    "raw_ranking": [
+      1,
+      2,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 strongly believes that the UK is better off within the EU due to economic benefits, improved outcomes, and increased international influence. Statement 1 directly aligns with this view by emphasizing the UK's strength and prosperity within the EU. Statement 2 also aligns well by highlighting economic cooperation and trade, which are key aspects of Agent 5's opinion. Statement 3, while mentioning economic strength, introduces 'shared values' which is not a focus of Agent 5's stated opinion, making it less representative.\",\n    \"ranking\": [1, 2, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  }
+}

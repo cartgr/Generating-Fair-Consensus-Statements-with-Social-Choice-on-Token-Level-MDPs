@@ -1,0 +1,102 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=5, num_rounds=1)": 1,
+      "habermas_machine (num_candidates=2, num_rounds=1)": 2,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 3,
+      "habermas_machine (num_candidates=10, num_rounds=2)": 4,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 5,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 6
+    },
+    "reasoning": "Agent 1 strongly supports increasing taxes to fund a comprehensive benefits system, emphasizing the importance of societal care and security. Statements that align with this view, particularly those that mention the necessity of a comprehensive system and the role of taxes in achieving it, are ranked higher. Statements that focus more on overhauling the system or do not emphasize the comprehensive nature of the benefits system are ranked lower.",
+    "raw_ranking": [
+      2,
+      1,
+      4,
+      6,
+      5,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 strongly supports increasing taxes to fund a comprehensive benefits system, emphasizing the importance of societal care and security. Statements that align with this view, particularly those that mention the necessity of a comprehensive system and the role of taxes in achieving it, are ranked higher. Statements that focus more on overhauling the system or do not emphasize the comprehensive nature of the benefits system are ranked lower.\",\n    \"ranking\": [2, 1, 4, 6, 5, 3],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 1,\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 2,\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 3,\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 4,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 5,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 6\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=10, num_rounds=2)": 1,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 2,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 3,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 4,
+      "habermas_machine (num_candidates=5, num_rounds=1)": 5,
+      "habermas_machine (num_candidates=2, num_rounds=1)": 6
+    },
+    "reasoning": "Agent 2 emphasizes the need for a complete overhaul of the benefits system, particularly to support vulnerable groups like carers, and supports increasing taxes to fund these improvements. Statement 6 aligns most closely with this view, explicitly mentioning a complete overhaul and prioritizing support for vulnerable groups such as carers. Statement 3 also mentions an overhaul and supporting vulnerable groups, but is less specific about carers. Statement 5 talks about an overhaul and a fairer tax system, which aligns well with Agent 2's views. Statement 4 mentions a systemic overhaul and supporting vulnerable groups, but is less specific than Statement 6. Statement 2 focuses on a comprehensive system and tax increases but lacks the emphasis on an overhaul and specific vulnerable groups. Statement 1 is the least aligned as it focuses more on tax increases without mentioning an overhaul or specific vulnerable groups.",
+    "raw_ranking": [
+      6,
+      3,
+      5,
+      4,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 emphasizes the need for a complete overhaul of the benefits system, particularly to support vulnerable groups like carers, and supports increasing taxes to fund these improvements. Statement 6 aligns most closely with this view, explicitly mentioning a complete overhaul and prioritizing support for vulnerable groups such as carers. Statement 3 also mentions an overhaul and supporting vulnerable groups, but is less specific about carers. Statement 5 talks about an overhaul and a fairer tax system, which aligns well with Agent 2's views. Statement 4 mentions a systemic overhaul and supporting vulnerable groups, but is less specific than Statement 6. Statement 2 focuses on a comprehensive system and tax increases but lacks the emphasis on an overhaul and specific vulnerable groups. Statement 1 is the least aligned as it focuses more on tax increases without mentioning an overhaul or specific vulnerable groups.\",\n    \"ranking\": [6, 3, 5, 4, 2, 1],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 1,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 2,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 3,\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 4,\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 5,\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 6\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=5, num_rounds=1)": 1,
+      "habermas_machine (num_candidates=2, num_rounds=1)": 2,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 3,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 4,
+      "habermas_machine (num_candidates=10, num_rounds=2)": 5,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 6
+    },
+    "reasoning": "Agent 3 emphasizes the need for a more comprehensive benefits system funded by taxing higher earners, while avoiding additional tax burdens on those with lower incomes. Statements that align with these priorities are ranked higher. Statement 2 best captures the agent's concern about not disproportionately impacting lower-income individuals. Statement 1 also aligns well but is less explicit about protecting lower-income groups. Statements 3, 4, and 6 focus on overhauling the system and supporting vulnerable groups, which is important but less emphasized by the agent. Statement 5 is the least aligned as it lacks specific mention of protecting lower-income individuals from tax burdens.",
+    "raw_ranking": [
+      2,
+      1,
+      3,
+      4,
+      6,
+      5
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 emphasizes the need for a more comprehensive benefits system funded by taxing higher earners, while avoiding additional tax burdens on those with lower incomes. Statements that align with these priorities are ranked higher. Statement 2 best captures the agent's concern about not disproportionately impacting lower-income individuals. Statement 1 also aligns well but is less explicit about protecting lower-income groups. Statements 3, 4, and 6 focus on overhauling the system and supporting vulnerable groups, which is important but less emphasized by the agent. Statement 5 is the least aligned as it lacks specific mention of protecting lower-income individuals from tax burdens.\",\n    \"ranking\": [2, 1, 3, 4, 6, 5],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 1,\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 2,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 3,\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 4,\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 5,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 6\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=5, num_rounds=1)": 1,
+      "habermas_machine (num_candidates=2, num_rounds=1)": 2,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 3,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 4,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 5,
+      "habermas_machine (num_candidates=10, num_rounds=2)": 6
+    },
+    "reasoning": "Agent 4 supports increasing taxes, particularly on the rich, to improve welfare and access to essential services like medical care. The agent emphasizes the importance of not overburdening those with lower incomes. Statement 2 aligns most closely with these views as it explicitly mentions not disproportionately impacting lower incomes while focusing on higher earners and corporations. Statement 1 also aligns well by emphasizing higher earners and corporations. Statement 5 follows, as it mentions a fairer tax system with a greater burden on those who can afford it. Statements 3, 4, and 6 are less aligned as they focus more on systemic overhauls and vulnerable groups without explicitly addressing the concern about lower-income individuals.",
+    "raw_ranking": [
+      2,
+      1,
+      5,
+      3,
+      4,
+      6
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 supports increasing taxes, particularly on the rich, to improve welfare and access to essential services like medical care. The agent emphasizes the importance of not overburdening those with lower incomes. Statement 2 aligns most closely with these views as it explicitly mentions not disproportionately impacting lower incomes while focusing on higher earners and corporations. Statement 1 also aligns well by emphasizing higher earners and corporations. Statement 5 follows, as it mentions a fairer tax system with a greater burden on those who can afford it. Statements 3, 4, and 6 are less aligned as they focus more on systemic overhauls and vulnerable groups without explicitly addressing the concern about lower-income individuals.\",\n    \"ranking\": [2, 1, 5, 3, 4, 6],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 1,\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 2,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 3,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 4,\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 5,\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 6\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=2, num_rounds=1)": 2,
+      "habermas_machine (num_candidates=5, num_rounds=1)": 1,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 4,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 3,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 5,
+      "habermas_machine (num_candidates=10, num_rounds=2)": 6
+    },
+    "reasoning": "Agent 5 emphasizes the need for a revised tax system where higher earners and corporations pay more to address the increasing income gap and support those affected by cuts to benefits. Statements that focus on increasing taxes for higher earners and corporations, and mention the need for a comprehensive benefits system, align well with Agent 5's views. Statements that emphasize overhauling the benefits system without a strong focus on the tax aspect are less aligned.",
+    "raw_ranking": [
+      2,
+      1,
+      4,
+      3,
+      5,
+      6
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 emphasizes the need for a revised tax system where higher earners and corporations pay more to address the increasing income gap and support those affected by cuts to benefits. Statements that focus on increasing taxes for higher earners and corporations, and mention the need for a comprehensive benefits system, align well with Agent 5's views. Statements that emphasize overhauling the benefits system without a strong focus on the tax aspect are less aligned.\",\n    \"ranking\": [2, 1, 4, 3, 5, 6],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 2,\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 1,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 4,\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 3,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 5,\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 6\n    }\n}"
+  }
+}

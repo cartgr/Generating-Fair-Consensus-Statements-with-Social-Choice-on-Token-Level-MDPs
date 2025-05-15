@@ -1,0 +1,26 @@
+experiment_name: test_habermas
+seed: 42
+num_seeds: 1 # Run with one seed for testing
+
+# Models
+models:
+  generation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  evaluation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo" # Not used by BoN itself, but maybe later
+
+scenario:
+  issue: "Should we build a new bridge across the river?"
+  agent_opinions:
+    Agent 1: "I support building a new bridge across the river to reduce traffic congestion, but we should ensure it includes dedicated lanes for public transportation and pedestrian walkways."
+    Agent 2: "I'm open to a new bridge if we use sustainable materials, minimize environmental impact, and implement reasonable tolls to offset construction costs."
+
+methods_to_run:
+  - habermas_machine
+
+
+habermas_machine:
+  num_candidates: 5 # Number of statements to generate and rank
+  num_rounds: 1
+  num_retries: 2
+
+# Output directory
+output_dir: "results/"

@@ -1,0 +1,102 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=10, num_rounds=2)": 1,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 2,
+      "habermas_machine (num_candidates=2, num_rounds=1)": 3,
+      "habermas_machine (num_candidates=5, num_rounds=1)": 4,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 5,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 6
+    },
+    "reasoning": "Agent 1 believes that the EU is detrimental to the UK's cultural identity and that leaving the EU is beneficial in preserving these identities. Therefore, statements that emphasize the negative impacts of Brexit or the benefits of EU membership are less aligned with Agent 1's perspective. Statement 6 acknowledges the threat to cultural identities due to EU membership, which aligns somewhat with Agent 1's concerns, despite its overall negative view of Brexit. Statement 5 recognizes the value of preserving unique cultural identities, which aligns with Agent 1's emphasis on cultural identity, but it ultimately supports EU integration, which is contrary to Agent 1's stance. The other statements focus on the negative impacts of Brexit or the benefits of EU membership, which are not aligned with Agent 1's opinion.",
+    "raw_ranking": [
+      6,
+      5,
+      1,
+      2,
+      4,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 believes that the EU is detrimental to the UK's cultural identity and that leaving the EU is beneficial in preserving these identities. Therefore, statements that emphasize the negative impacts of Brexit or the benefits of EU membership are less aligned with Agent 1's perspective. Statement 6 acknowledges the threat to cultural identities due to EU membership, which aligns somewhat with Agent 1's concerns, despite its overall negative view of Brexit. Statement 5 recognizes the value of preserving unique cultural identities, which aligns with Agent 1's emphasis on cultural identity, but it ultimately supports EU integration, which is contrary to Agent 1's stance. The other statements focus on the negative impacts of Brexit or the benefits of EU membership, which are not aligned with Agent 1's opinion.\",\n    \"ranking\": [6, 5, 1, 2, 4, 3],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 1,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 2,\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 3,\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 4,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 5,\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 6\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=2, num_rounds=1)": 5,
+      "habermas_machine (num_candidates=5, num_rounds=1)": 6,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 1,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 2,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 4,
+      "habermas_machine (num_candidates=10, num_rounds=2)": 3
+    },
+    "reasoning": "Agent 2 believes the UK is currently worse off outside the EU due to negative impacts on trade, administration, and social division. Statement 3 directly aligns with this view by concluding the UK is worse off outside the EU. Statement 4 also aligns well by recognizing significant negative consequences of Brexit. Statement 6 supports the agent's view by highlighting negative impacts and suggesting remaining in the EU would have been beneficial. Statement 5 acknowledges challenges post-Brexit but emphasizes future prosperity through closer integration, which partially aligns with the agent's view. Statement 1 and 2 are less aligned as they focus more on the benefits of connections with Europe and shared progress, without directly addressing the current negative impacts of Brexit.",
+    "raw_ranking": [
+      3,
+      4,
+      6,
+      5,
+      1,
+      2
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 believes the UK is currently worse off outside the EU due to negative impacts on trade, administration, and social division. Statement 3 directly aligns with this view by concluding the UK is worse off outside the EU. Statement 4 also aligns well by recognizing significant negative consequences of Brexit. Statement 6 supports the agent's view by highlighting negative impacts and suggesting remaining in the EU would have been beneficial. Statement 5 acknowledges challenges post-Brexit but emphasizes future prosperity through closer integration, which partially aligns with the agent's view. Statement 1 and 2 are less aligned as they focus more on the benefits of connections with Europe and shared progress, without directly addressing the current negative impacts of Brexit.\",\n    \"ranking\": [3, 4, 6, 5, 1, 2],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 5,\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 6,\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 1,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 2,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 4,\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 3\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=2, num_rounds=2)": 1,
+      "habermas_machine (num_candidates=10, num_rounds=2)": 2,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 3,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 4,
+      "habermas_machine (num_candidates=5, num_rounds=1)": 5,
+      "habermas_machine (num_candidates=2, num_rounds=1)": 6
+    },
+    "reasoning": "Agent 3 believes the UK was better off inside the EU, citing negative economic and social impacts post-Brexit, such as higher food prices and a worse economy. Statement 3 directly aligns with this view by stating the UK is worse off outside the EU due to negative economic and social impacts. Statement 6 also aligns well, mentioning increased food prices and negative impacts on trade and social divisions. Statement 4 acknowledges significant negative consequences of Brexit, including economic and social impacts, which aligns with Agent 3's concerns. Statement 5 mentions economic and social challenges post-Brexit and suggests closer integration with Europe is beneficial, which partially aligns with Agent 3's view. Statement 2 highlights benefits of EU membership but is less direct about the negative impacts of leaving. Statement 1 is the least aligned as it focuses more on the complexity of post-Brexit arrangements rather than the negative impacts highlighted by Agent 3.",
+    "raw_ranking": [
+      3,
+      6,
+      4,
+      5,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 believes the UK was better off inside the EU, citing negative economic and social impacts post-Brexit, such as higher food prices and a worse economy. Statement 3 directly aligns with this view by stating the UK is worse off outside the EU due to negative economic and social impacts. Statement 6 also aligns well, mentioning increased food prices and negative impacts on trade and social divisions. Statement 4 acknowledges significant negative consequences of Brexit, including economic and social impacts, which aligns with Agent 3's concerns. Statement 5 mentions economic and social challenges post-Brexit and suggests closer integration with Europe is beneficial, which partially aligns with Agent 3's view. Statement 2 highlights benefits of EU membership but is less direct about the negative impacts of leaving. Statement 1 is the least aligned as it focuses more on the complexity of post-Brexit arrangements rather than the negative impacts highlighted by Agent 3.\",\n    \"ranking\": [3, 6, 4, 5, 2, 1],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 1,\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 2,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 3,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 4,\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 5,\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 6\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=10, num_rounds=2)": 1,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 2,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 3,
+      "habermas_machine (num_candidates=5, num_rounds=1)": 4,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 5,
+      "habermas_machine (num_candidates=2, num_rounds=1)": 6
+    },
+    "reasoning": "Agent 4 believes that the UK is better off within the EU due to the benefits of economic cooperation, cultural exchange, and global influence. They emphasize the importance of shared resources, reduced costs, and the potential for greater cohesion and reduced conflict. Statements that highlight the negative impacts of Brexit and the benefits of EU membership align more closely with Agent 4's views. Statement 6 directly addresses the negative impacts of leaving the EU and the benefits of remaining, making it the most aligned. Statement 3 also clearly states the UK is worse off outside the EU, which aligns well with Agent 4's opinion. Statement 5 discusses the challenges post-Brexit and the benefits of closer integration, which is favorable. Statement 2 acknowledges the benefits of EU membership but is less explicit about the negative impacts of Brexit. Statement 4 focuses on the negative consequences of Brexit but lacks emphasis on the benefits of EU membership. Statement 1 is the least aligned as it is more neutral and does not strongly advocate for EU membership.",
+    "raw_ranking": [
+      6,
+      3,
+      5,
+      2,
+      4,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 believes that the UK is better off within the EU due to the benefits of economic cooperation, cultural exchange, and global influence. They emphasize the importance of shared resources, reduced costs, and the potential for greater cohesion and reduced conflict. Statements that highlight the negative impacts of Brexit and the benefits of EU membership align more closely with Agent 4's views. Statement 6 directly addresses the negative impacts of leaving the EU and the benefits of remaining, making it the most aligned. Statement 3 also clearly states the UK is worse off outside the EU, which aligns well with Agent 4's opinion. Statement 5 discusses the challenges post-Brexit and the benefits of closer integration, which is favorable. Statement 2 acknowledges the benefits of EU membership but is less explicit about the negative impacts of Brexit. Statement 4 focuses on the negative consequences of Brexit but lacks emphasis on the benefits of EU membership. Statement 1 is the least aligned as it is more neutral and does not strongly advocate for EU membership.\",\n    \"ranking\": [6, 3, 5, 2, 4, 1],\n    \"method_ranking\": {\n        \"habermas_machine (num_candidates=10, num_rounds=2)\": 1,\n        \"habermas_machine (num_candidates=2, num_rounds=2)\": 2,\n        \"habermas_machine (num_candidates=5, num_rounds=2)\": 3,\n        \"habermas_machine (num_candidates=5, num_rounds=1)\": 4,\n        \"habermas_machine (num_candidates=10, num_rounds=1)\": 5,\n        \"habermas_machine (num_candidates=2, num_rounds=1)\": 6\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=2, num_rounds=1)": 6,
+      "habermas_machine (num_candidates=5, num_rounds=1)": 5,
+      "habermas_machine (num_candidates=2, num_rounds=2)": 1,
+      "habermas_machine (num_candidates=10, num_rounds=1)": 3,
+      "habermas_machine (num_candidates=5, num_rounds=2)": 4,
+      "habermas_machine (num_candidates=10, num_rounds=2)": 2
+    },
+    "reasoning": "Agent 5 strongly believes that the UK is better off within the EU, citing negative impacts since leaving and the benefits of economic ties and international influence. Statement 3 directly aligns with this view by stating the UK is worse off outside the EU due to negative impacts. Statement 6 also supports this by highlighting the negative consequences of Brexit and the benefits of EU membership. Statement 4 focuses on the negative impacts of Brexit, aligning with Agent 5's view of the negatives since leaving. Statement 5 acknowledges challenges post-Brexit and suggests benefits from closer integration, which aligns with Agent 5's opinion. Statement 2 mentions benefits from EU membership but is less direct about the negatives of leaving. Statement 1 is the least aligned as it presents a more balanced view without strongly emphasizing the negatives of leaving the EU.",
+    "raw_ranking": [
+      3,
+      6,
+      4,
+      5,
+      2,
+      1
+    ],
+    "raw_response": "{\n  \"reasoning\": \"Agent 5 strongly believes that the UK is better off within the EU, citing negative impacts since leaving and the benefits of economic ties and international influence. Statement 3 directly aligns with this view by stating the UK is worse off outside the EU due to negative impacts. Statement 6 also supports this by highlighting the negative consequences of Brexit and the benefits of EU membership. Statement 4 focuses on the negative impacts of Brexit, aligning with Agent 5's view of the negatives since leaving. Statement 5 acknowledges challenges post-Brexit and suggests benefits from closer integration, which aligns with Agent 5's opinion. Statement 2 mentions benefits from EU membership but is less direct about the negatives of leaving. Statement 1 is the least aligned as it presents a more balanced view without strongly emphasizing the negatives of leaving the EU.\",\n  \"ranking\": [3, 6, 4, 5, 2, 1],\n  \"method_ranking\": {\n    \"habermas_machine (num_candidates=2, num_rounds=1)\": 6,\n    \"habermas_machine (num_candidates=5, num_rounds=1)\": 5,\n    \"habermas_machine (num_candidates=2, num_rounds=2)\": 1,\n    \"habermas_machine (num_candidates=10, num_rounds=1)\": 3,\n    \"habermas_machine (num_candidates=5, num_rounds=2)\": 4,\n    \"habermas_machine (num_candidates=10, num_rounds=2)\": 2\n  }\n}"
+  }
+}

@@ -1,0 +1,64 @@
+experiment_name: neurips_gemma_scenario5_beam_search
+seed: 42
+num_seeds: 3
+concurrent_execution: true
+max_concurrent_methods: 5
+api_rate_limit: 60
+models:
+  generation_model: google/gemma-2-9b-it
+  evaluation_models:
+  - google/gemma-2-9b-it
+  - meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+scenario:
+  issue: Is the UK better off inside or outside of the European Union?
+  agent_opinions:
+    Agent 1: The EU is becoming increasingly bloated and ineffective. Due to its size
+      there appears to be more of an emphasis on corporatism and big business to the
+      detriment of individual countries cultural identities. These are the sort of
+      traditions and way of life that foster meaning and a sense of community. With
+      larger organisations this individual flavour is lost to the detrimental of an
+      individual and a collective of any size
+    Agent 2: Because of the incompetent and unwilling handling of Brexit, it seems
+      clear we would currently be better off inside Europe. Our trade, both import
+      and export, has been damaged badly with no sign of a satisfactory resolution.
+      Additionally the administration for individuals and business for travel and
+      residence have become a deep negative. The mood of the nation is also very divided
+      although I am unsure whether that can be overcomeby a return to EU membership.
+    Agent 3: Uk was better off inside the Europen union, the reason is that if we
+      compare advantages and disadvantages then we notice that we are wosre off after
+      leaving Europen union. Food prices are going higher and it is not good socially.
+      Not good for economy,
+    Agent 4: i feel that there is strenght in number, that the uk has been and remains
+      so closely connected to euroipe both geographically and politically that being
+      within it would be better. As a small island our resources are limited. The
+      older generation may want the good old times but they really no longer exist
+      and progress must be made. Geographical borders no longer limit us, we have
+      better transport, education, we are more mobile, multilingual. We should be
+      more focused on humanity and the health and wealth of the world as a whole.
+      Connecting the world into bigger groups will bring better cohesion and perhaps
+      reduce risks of conflict. shared resources, reduced costs. Young people wish
+      to travel, to widen their horizons
+    Agent 5: The UK is most definitely better off within the EU and has seen many
+      negatives since leaving and very few positives. The interconnected nature of
+      European economies means there is much to be gained from formal ties of the
+      EU - moving from having a number of countries on their own not being particularly
+      powerful or influential on the world stage, to a significant international power
+      when coming together as one. Being in the EU generally means improved economic
+      outcomes, more jobs, more investment, higher wages etc, and is very much a beneficial
+      thing.
+methods_to_run:
+- beam_search
+beam_search:
+  beam_width:
+  - 2
+  - 4
+  - 6
+  - 8
+  max_tokens: 50
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+  max_sampling_attempts: 8
+  brushup: true
+  brushup_model: google/gemma-2-9b-it
+output_dir: results/neurips/

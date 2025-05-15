@@ -1,0 +1,72 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3
+    },
+    "reasoning": "Agent 1 values children's views but emphasizes the importance of a well-rounded education and the potential lack of perspective from young people. Statement 3 aligns best as it acknowledges the importance of children's views while considering their specific needs, which implies a balance with educational goals. Statement 2 simply states the importance of children's views without addressing the need for a complete education. Statement 1 does not address the issue at all.",
+    "raw_ranking": [
+      3,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 values children's views but emphasizes the importance of a well-rounded education and the potential lack of perspective from young people. Statement 3 aligns best as it acknowledges the importance of children's views while considering their specific needs, which implies a balance with educational goals. Statement 2 simply states the importance of children's views without addressing the need for a complete education. Statement 1 does not address the issue at all.\",\n    \"ranking\": [3, 2, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3
+    },
+    "reasoning": "Agent 2 believes that children's views are important but also emphasizes the role of adults in guiding education and the necessity of learning certain subjects. Statement 3 aligns best with Agent 2's opinion as it acknowledges the importance of children's views in relation to their specific needs and learning styles, which implies a nuanced approach. Statement 2 is less detailed but still aligns with the agent's view that children's opinions are important. Statement 1 does not address the issue at all and is irrelevant.",
+    "raw_ranking": [
+      3,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 believes that children's views are important but also emphasizes the role of adults in guiding education and the necessity of learning certain subjects. Statement 3 aligns best with Agent 2's opinion as it acknowledges the importance of children's views in relation to their specific needs and learning styles, which implies a nuanced approach. Statement 2 is less detailed but still aligns with the agent's view that children's opinions are important. Statement 1 does not address the issue at all and is irrelevant.\",\n    \"ranking\": [3, 2, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3
+    },
+    "reasoning": "Agent 3 believes that children's views on their education are very important because they are the recipients of the education and can judge its functionality. Statement 3 aligns best with this view as it emphasizes the importance of children's views in relation to their specific needs and learning styles, which implies a functional aspect. Statement 2 also aligns with the agent's opinion but lacks the depth of consideration for functionality. Statement 1 is irrelevant to the issue at hand.",
+    "raw_ranking": [
+      3,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 believes that children's views on their education are very important because they are the recipients of the education and can judge its functionality. Statement 3 aligns best with this view as it emphasizes the importance of children's views in relation to their specific needs and learning styles, which implies a functional aspect. Statement 2 also aligns with the agent's opinion but lacks the depth of consideration for functionality. Statement 1 is irrelevant to the issue at hand.\",\n    \"ranking\": [3, 2, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3
+    },
+    "reasoning": "Agent 4 believes that children's views are important but emphasizes the need to consider their age and individual learning styles. Statement 3 aligns best with this view as it acknowledges the importance of children's views while also considering their specific needs and learning styles. Statement 2 recognizes the importance of children's views but lacks the nuance regarding age and learning styles. Statement 1 is irrelevant to the issue at hand.",
+    "raw_ranking": [
+      3,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 believes that children's views are important but emphasizes the need to consider their age and individual learning styles. Statement 3 aligns best with this view as it acknowledges the importance of children's views while also considering their specific needs and learning styles. Statement 2 recognizes the importance of children's views but lacks the nuance regarding age and learning styles. Statement 1 is irrelevant to the issue at hand.\",\n    \"ranking\": [3, 2, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3
+    },
+    "reasoning": "Agent 5 emphasizes the importance of children's views in shaping their education because it directly impacts their future and relevance to modern life. Statement 2 aligns closely with this by stating the importance of children's views in education. Statement 3 also acknowledges the importance of children's views but adds a focus on specific needs and learning styles, which is not explicitly mentioned by Agent 5. Statement 1 is irrelevant to the issue at hand.",
+    "raw_ranking": [
+      2,
+      3,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 emphasizes the importance of children's views in shaping their education because it directly impacts their future and relevance to modern life. Statement 2 aligns closely with this by stating the importance of children's views in education. Statement 3 also acknowledges the importance of children's views but adds a focus on specific needs and learning styles, which is not explicitly mentioned by Agent 5. Statement 1 is irrelevant to the issue at hand.\",\n    \"ranking\": [2, 3, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3\n    }\n}"
+  }
+}

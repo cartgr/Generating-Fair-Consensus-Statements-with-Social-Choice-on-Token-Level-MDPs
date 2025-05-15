@@ -1,0 +1,28 @@
+method,statement,error_message,seed,param_api_delay,param_beta,param_branching_factor,param_brushup,param_brushup_model,param_log_level,param_max_depth,param_max_tokens,param_seed,issue,config_file,evaluation_status,generation_time_s,pre_brushup_statement
+finite_lookahead,"Please provide the statement you would like me to fix.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,42,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,79.91079092025757,
+finite_lookahead,"Children's views are important for their education.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,42,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,166.41591906547546,Children's views are important for their education.
+finite_lookahead,"Children's views on education are important, especially when considering their specific needs and learning styles.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,42,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,3257.137476205826,"Children's views on education are important, especially when considering their specific needs and learning styles."
+finite_lookahead,"Children's views matter in shaping their education, ensuring their voices are heard, and their learning experiences are relevant and engaging. 
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,43,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,677.0201280117035,"Children's views matter in shaping their education, ensuring their voices are heard, and their learning experiences are relevant and engaging.  
+
+
+Is this a good response?  Is there anything else that can be added?  Is there anything that can be"
+finite_lookahead,"Children's views on education are crucial. Engaging them in the learning process fosters better understanding and inclusivity.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,43,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,1290.228905916214,Children's views on education are crucial. Engaging them in the learning process fosters better understanding and inclusivity.
+finite_lookahead,"Children's voices matter in shaping their education.  Their perspectives should be heard and considered within a structured framework that ensures a well-rounded education.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,43,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,5103.169059753418,Children's voices matter in shaping their education.  Their perspectives should be heard and considered within a structured framework that ensures a well-rounded education.
+finite_lookahead,"Children's views matter in shaping their education, considering their age and individual needs.  
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,44,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,378.8429219722748,"Children's views matter in shaping their education, considering their age and individual needs.
+
+
+Please provide the following information for the next task."
+finite_lookahead,"Children's views are essential for their education.  Engaging them in the learning process helps create a positive learning experience tailored to their needs and encourages active participation. 
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,44,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,1705.6630346775055,Children's views are essential for their education.  Engaging them in the learning process helps create a positive learning experience tailored to their needs and encourages active participation.
+finite_lookahead,"Children's views are crucial for their education. Their perspectives should be considered when designing curriculum and teaching methods.  This ensures a more engaging and effective learning experience. 
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,44,Are children's views about their education important?,results/neurips/neurips_gemma_scenario4_finite_lookahead_20250513_113518/config.yaml,pending,6203.15887594223,"Children's views are crucial for their education. Their perspectives should be considered when designing curriculum and teaching methods. 
+
+
+Please note that this is just a starting point."

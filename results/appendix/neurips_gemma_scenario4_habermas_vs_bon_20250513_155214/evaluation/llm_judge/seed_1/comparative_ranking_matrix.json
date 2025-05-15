@@ -1,0 +1,162 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 10,
+      "best_of_n (n=3.0)": 7,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 9,
+      "best_of_n (n=5.0)": 6,
+      "best_of_n (n=10.0)": 1,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 8,
+      "best_of_n (n=20.0)": 2,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 4,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 11,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 12,
+      "best_of_n (n=50.0)": 3
+    },
+    "reasoning": "Agent 1 values children's views but emphasizes the importance of a well-rounded education and adult guidance. Statements that balance children's input with the necessity of a comprehensive education align best with Agent 1's opinion. Statements that focus solely on children's views without mentioning the need for a well-rounded education or adult guidance are less aligned.",
+    "raw_ranking": [
+      5,
+      8,
+      12,
+      9,
+      6,
+      4,
+      2,
+      7,
+      3,
+      1,
+      10,
+      11
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 values children's views but emphasizes the importance of a well-rounded education and adult guidance. Statements that balance children's input with the necessity of a comprehensive education align best with Agent 1's opinion. Statements that focus solely on children's views without mentioning the need for a well-rounded education or adult guidance are less aligned.\",\n    \"ranking\": [5, 8, 12, 9, 6, 4, 2, 7, 3, 1, 10, 11],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 10,\n        \"best_of_n (n=3.0)\": 7,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 9,\n        \"best_of_n (n=5.0)\": 6,\n        \"best_of_n (n=10.0)\": 1,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 5,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 8,\n        \"best_of_n (n=20.0)\": 2,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 4,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 11,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 12,\n        \"best_of_n (n=50.0)\": 3\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 12,
+      "best_of_n (n=3.0)": 6,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 10,
+      "best_of_n (n=5.0)": 8,
+      "best_of_n (n=10.0)": 3,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 1,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 7,
+      "best_of_n (n=20.0)": 4,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 2,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 11,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 9,
+      "best_of_n (n=50.0)": 5
+    },
+    "reasoning": "Agent 2 values children's views on education but emphasizes the importance of adult guidance to ensure a well-rounded education. Statements that balance children's input with adult guidance and focus on essential skills align best with Agent 2's opinion. Statements that only emphasize children's views without mentioning the need for adult guidance or a comprehensive curriculum are less aligned.",
+    "raw_ranking": [
+      6,
+      9,
+      5,
+      8,
+      12,
+      2,
+      7,
+      4,
+      11,
+      3,
+      10,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 values children's views on education but emphasizes the importance of adult guidance to ensure a well-rounded education. Statements that balance children's input with adult guidance and focus on essential skills align best with Agent 2's opinion. Statements that only emphasize children's views without mentioning the need for adult guidance or a comprehensive curriculum are less aligned.\",\n    \"ranking\": [6, 9, 5, 8, 12, 2, 7, 4, 11, 3, 10, 1],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 12,\n        \"best_of_n (n=3.0)\": 6,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 10,\n        \"best_of_n (n=5.0)\": 8,\n        \"best_of_n (n=10.0)\": 3,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 1,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 7,\n        \"best_of_n (n=20.0)\": 4,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 2,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 11,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 9,\n        \"best_of_n (n=50.0)\": 5\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 1,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 2,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 3,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 4,
+      "best_of_n (n=3.0)": 5,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 6,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 7,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 8,
+      "best_of_n (n=5.0)": 9,
+      "best_of_n (n=10.0)": 10,
+      "best_of_n (n=20.0)": 11,
+      "best_of_n (n=50.0)": 12
+    },
+    "reasoning": "Agent 3 emphasizes the importance of children's views on their education, particularly because they are the recipients and can judge its functionality. Statements that align closely with this perspective, focusing on the importance of children's views without overly emphasizing the need for adult guidance or a well-rounded curriculum, are ranked higher. Statements that introduce significant caveats or emphasize adult control are ranked lower.",
+    "raw_ranking": [
+      1,
+      11,
+      10,
+      3,
+      2,
+      9,
+      6,
+      7,
+      4,
+      5,
+      8,
+      12
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 emphasizes the importance of children's views on their education, particularly because they are the recipients and can judge its functionality. Statements that align closely with this perspective, focusing on the importance of children's views without overly emphasizing the need for adult guidance or a well-rounded curriculum, are ranked higher. Statements that introduce significant caveats or emphasize adult control are ranked lower.\",\n    \"ranking\": [1, 11, 10, 3, 2, 9, 6, 7, 4, 5, 8, 12],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 1,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 2,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 3,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 4,\n        \"best_of_n (n=3.0)\": 5,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 6,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 7,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 8,\n        \"best_of_n (n=5.0)\": 9,\n        \"best_of_n (n=10.0)\": 10,\n        \"best_of_n (n=20.0)\": 11,\n        \"best_of_n (n=50.0)\": 12\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 9,
+      "best_of_n (n=3.0)": 8,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 11,
+      "best_of_n (n=5.0)": 7,
+      "best_of_n (n=10.0)": 2,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 6,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 1,
+      "best_of_n (n=20.0)": 3,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 12,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 10,
+      "best_of_n (n=50.0)": 4
+    },
+    "reasoning": "Agent 4 emphasizes the importance of children's views in education, particularly considering their age and individual learning styles. The agent also acknowledges the effectiveness of the current education system and the need for a well-rounded curriculum. Statements that balance children's input with age-appropriate guidance and the necessity of a comprehensive education align best with Agent 4's opinion.",
+    "raw_ranking": [
+      7,
+      5,
+      8,
+      12,
+      9,
+      6,
+      4,
+      2,
+      1,
+      11,
+      3,
+      10
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 emphasizes the importance of children's views in education, particularly considering their age and individual learning styles. The agent also acknowledges the effectiveness of the current education system and the need for a well-rounded curriculum. Statements that balance children's input with age-appropriate guidance and the necessity of a comprehensive education align best with Agent 4's opinion.\",\n    \"ranking\": [7, 5, 8, 12, 9, 6, 4, 2, 1, 11, 3, 10],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 9,\n        \"best_of_n (n=3.0)\": 8,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 11,\n        \"best_of_n (n=5.0)\": 7,\n        \"best_of_n (n=10.0)\": 2,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 6,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 1,\n        \"best_of_n (n=20.0)\": 3,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 5,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 12,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 10,\n        \"best_of_n (n=50.0)\": 4\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 1,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 2,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 3,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 4,
+      "best_of_n (n=3.0)": 5,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 6,
+      "best_of_n (n=20.0)": 7,
+      "best_of_n (n=50.0)": 8,
+      "best_of_n (n=10.0)": 9,
+      "best_of_n (n=5.0)": 10,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 11,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 12
+    },
+    "reasoning": "Agent 5 emphasizes the importance of children's views in education, particularly in terms of relevance to modern life and the need for their voices to be heard. Statements that align closely with these points, without overly emphasizing adult guidance or a well-rounded curriculum, are ranked higher. Statements that introduce significant emphasis on adult control or balance with traditional educational structures are ranked lower.",
+    "raw_ranking": [
+      1,
+      11,
+      10,
+      3,
+      2,
+      9,
+      8,
+      12,
+      5,
+      4,
+      6,
+      7
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 emphasizes the importance of children's views in education, particularly in terms of relevance to modern life and the need for their voices to be heard. Statements that align closely with these points, without overly emphasizing adult guidance or a well-rounded curriculum, are ranked higher. Statements that introduce significant emphasis on adult control or balance with traditional educational structures are ranked lower.\",\n    \"ranking\": [1, 11, 10, 3, 2, 9, 8, 12, 5, 4, 6, 7],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 1,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 2,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 3,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 4,\n        \"best_of_n (n=3.0)\": 5,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 6,\n        \"best_of_n (n=20.0)\": 7,\n        \"best_of_n (n=50.0)\": 8,\n        \"best_of_n (n=10.0)\": 9,\n        \"best_of_n (n=5.0)\": 10,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 11,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 12\n    }\n}"
+  }
+}

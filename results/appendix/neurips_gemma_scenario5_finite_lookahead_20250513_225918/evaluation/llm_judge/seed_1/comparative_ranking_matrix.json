@@ -1,0 +1,72 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 1 believes that the EU is detrimental to the UK's cultural identity and individuality due to its focus on corporatism and big business. All statements emphasize the benefits of EU membership, which contradicts Agent 1's opinion. However, none of the statements address the cultural or identity concerns raised by Agent 1. Therefore, all statements are equally unfavorable as they do not align with Agent 1's perspective.",
+    "raw_ranking": [
+      1,
+      2,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 believes that the EU is detrimental to the UK's cultural identity and individuality due to its focus on corporatism and big business. All statements emphasize the benefits of EU membership, which contradicts Agent 1's opinion. However, none of the statements address the cultural or identity concerns raised by Agent 1. Therefore, all statements are equally unfavorable as they do not align with Agent 1's perspective.\",\n    \"ranking\": [1, 2, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3
+    },
+    "reasoning": "Agent 2's opinion emphasizes the negative impact of Brexit on trade and administration, and suggests that the UK would be better off inside the EU. Statement 3 aligns most closely with this view by explicitly mentioning the damage caused by leaving the EU. Statement 1 also supports the idea of being better off within the EU but lacks the specific mention of the damage caused by Brexit. Statement 2 is the least aligned as it does not explicitly state the benefits of being within the EU or the negative impact of leaving.",
+    "raw_ranking": [
+      3,
+      1,
+      2
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2's opinion emphasizes the negative impact of Brexit on trade and administration, and suggests that the UK would be better off inside the EU. Statement 3 aligns most closely with this view by explicitly mentioning the damage caused by leaving the EU. Statement 1 also supports the idea of being better off within the EU but lacks the specific mention of the damage caused by Brexit. Statement 2 is the least aligned as it does not explicitly state the benefits of being within the EU or the negative impact of leaving.\",\n    \"ranking\": [3, 1, 2],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3
+    },
+    "reasoning": "Agent 3 believes the UK was better off inside the EU, citing economic disadvantages and social issues after leaving. Statement 3 aligns most closely with this view by explicitly mentioning the damage caused by leaving the EU. Statement 1 also supports the idea that the UK was better off within the EU, focusing on economic opportunities and trade ties, which aligns with Agent 3's concerns about the economy. Statement 2, while mentioning benefits of stronger ties with Europe, does not explicitly address the negative impact of leaving the EU, making it less aligned with Agent 3's opinion.",
+    "raw_ranking": [
+      3,
+      1,
+      2
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 believes the UK was better off inside the EU, citing economic disadvantages and social issues after leaving. Statement 3 aligns most closely with this view by explicitly mentioning the damage caused by leaving the EU. Statement 1 also supports the idea that the UK was better off within the EU, focusing on economic opportunities and trade ties, which aligns with Agent 3's concerns about the economy. Statement 2, while mentioning benefits of stronger ties with Europe, does not explicitly address the negative impact of leaving the EU, making it less aligned with Agent 3's opinion.\",\n    \"ranking\": [3, 1, 2],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=2)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 4 emphasizes the importance of being part of a larger group for economic and political strength, shared resources, and global influence. Statement 2 aligns most closely with these views by highlighting economic interconnectedness, shared resources, and global influence. Statement 1 also supports the idea of being better off within the EU due to economic opportunities and a unified voice, but it is less detailed about shared resources. Statement 3, while mentioning benefits of EU membership, focuses more on the negative impacts of leaving, which is less aligned with Agent 4's forward-looking perspective.",
+    "raw_ranking": [
+      2,
+      1,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 emphasizes the importance of being part of a larger group for economic and political strength, shared resources, and global influence. Statement 2 aligns most closely with these views by highlighting economic interconnectedness, shared resources, and global influence. Statement 1 also supports the idea of being better off within the EU due to economic opportunities and a unified voice, but it is less detailed about shared resources. Statement 3, while mentioning benefits of EU membership, focuses more on the negative impacts of leaving, which is less aligned with Agent 4's forward-looking perspective.\",\n    \"ranking\": [2, 1, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1
+    },
+    "reasoning": "Agent 5 strongly believes that the UK is better off within the EU, emphasizing the negatives since leaving and the benefits of economic interconnectedness, jobs, investment, and international influence. Statement 3 aligns best with this view by explicitly mentioning the damage caused by leaving the EU, which is a key point in Agent 5's opinion. Statement 1 also aligns well by highlighting economic opportunities and international influence, but it lacks the explicit mention of negatives post-Brexit. Statement 2, while mentioning economic interconnectedness and global influence, is less specific about the benefits and negatives, making it the least representative of Agent 5's opinion.",
+    "raw_ranking": [
+      3,
+      1,
+      2
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 strongly believes that the UK is better off within the EU, emphasizing the negatives since leaving and the benefits of economic interconnectedness, jobs, investment, and international influence. Statement 3 aligns best with this view by explicitly mentioning the damage caused by leaving the EU, which is a key point in Agent 5's opinion. Statement 1 also aligns well by highlighting economic opportunities and international influence, but it lacks the explicit mention of negatives post-Brexit. Statement 2, while mentioning economic interconnectedness and global influence, is less specific about the benefits and negatives, making it the least representative of Agent 5's opinion.\",\n    \"ranking\": [3, 1, 2],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1\n    }\n}"
+  }
+}

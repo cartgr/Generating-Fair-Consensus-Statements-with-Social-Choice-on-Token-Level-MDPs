@@ -1,0 +1,41 @@
+# Environment and config
+.env
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.DS_Store
+
+# Logs
+*.log
+logs/
+neurips_experiments.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated files
+*.tmp
+temp/
+
+# API keys
+*.key

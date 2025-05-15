@@ -1,0 +1,81 @@
+experiment_name: scenario_2_full_comparison
+seed: 42
+num_seeds: 3
+models:
+  generation_model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+  evaluation_model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+scenario:
+  issue: Should the UK's ties to Europe be stronger or weaker?
+  agent_opinions:
+    Agent 1: When we was in Europe we had good trade with them , The decision to leave
+      was very bad for united kindom . We need to put the vote again to the British
+      public i am sure this time the decision would be to remain
+    Agent 2: The natural evolution of our species has been to grow into ever bigger
+      "tribes". Families ruled by their patriarchs became tribes ruled by elders became
+      countries ruled by governments. It made sense that countries would evolve separately
+      since they were geographically separate with no means of communication. Now
+      our world is so connected, it is inevitable that we evolve into ever larger
+      units such as the United States and the European Union. Eventually we will become
+      a multi-planetary species ruled by an Earth government. To sever ties with Europe
+      is a step in the wrong direction.
+    Agent 3: Although we did exit EU few years ago, we are geographically and economically
+      in proximity to most EU countries. Several geographic, financial, political
+      and economical parameters are intertwined with our neighbouring countries and,
+      it would be advantageous to be in good relations to fully harness our economic,
+      political, and financial facilities.
+    Agent 4: I believe the UK's ties to Europe should be stronger, as it would make
+      trade deals easier to negotiate. This would allow us to benefit from a larger
+      array of goods, which would make our imports cheaper. I also believe that closer
+      ties with Europe in terms of immigration policies should occur as our immigration
+      policy doesn't coincide with other nations around us. I believe a more united
+      Europe would help all countries grow more through the movement of free labour,
+      goods and services and more.
+    Agent 5: I think they should be stronger, as all the countries of Europe, except
+      us, are part of the EU, and it makes Britain more isolated. Countries are stronger
+      I believe when they work together with other countries and are open to the influence
+      of other countries. I believe that leaving the EU was a step backwards and done
+      for the wrong reasons. We are not the country we were 100 or even 50 years ago
+      and the world is changing so much that we cannot afford to not be part of Europe.
+methods_to_run:
+- best_of_n
+- finite_lookahead
+- habermas_machine
+- predefined
+- beam_search
+best_of_n:
+  n: 4
+  max_tokens: 200
+  temperature: 1.0
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+beam_search:
+  beam_width: 4
+  max_tokens: 200
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+  max_sampling_attempts: 10
+  brushup: true
+  brushup_model: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+finite_lookahead:
+  branching_factor: 2
+  max_depth: 4
+  max_tokens: 200
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+  brushup: true
+  brushup_model: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+habermas_machine:
+  num_candidates: 4
+  num_rounds: 1
+  num_retries: 2
+predefined:
+  predefined_statement: The UK's ties to Europe should be stronger. This is because,
+    although the UK did leave the EU, we are geographically and economically in proximity
+    to most EU countries. Several geographic, financial, political and economical
+    parameters are intertwined with our neighbouring countries and, it would be advantageous
+    to be in good relations to fully harness our economic, political, and financial
+    facilities.
+output_dir: results/

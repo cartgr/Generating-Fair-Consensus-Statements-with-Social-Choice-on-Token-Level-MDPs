@@ -1,0 +1,58 @@
+experiment_name: neurips_gemma_scenario4_finite_lookahead
+seed: 42
+num_seeds: 3
+concurrent_execution: true
+max_concurrent_methods: 5
+api_rate_limit: 60
+models:
+  generation_model: google/gemma-2-9b-it
+  evaluation_models:
+  - google/gemma-2-9b-it
+  - meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+scenario:
+  issue: Are children's views about their education important?
+  agent_opinions:
+    Agent 1: It is important that children feel happy, safe and comfortable in school,
+      so we should take into account their views. However it is also important to
+      ensure every child gets a well-rounded and complete education. This means they
+      should not have the option to drop out before they have reached a level of qualification
+      that will stand them in good stead for their future life. Young people may not
+      have the perspective to understand the importance of this for their futures.
+    Agent 2: Their views are important because it affects them directly, and it's
+      also important to engage children and ensure that they are actively learning
+      rather than exposing them to content they find completely uninteresting and
+      therefore fail to engage with. However, there are certain topics that may be
+      boring to children but are extremely important for them to learn for their future,
+      such as maths and science, so it's arguably more important to provide adequate
+      support to their learning so they can find enjoyment in their learning regardless.
+      Of course, adults have a better view in terms of what would benefit a child
+      - as a child may choose things they enjoy short-term but that may not benefit
+      them in the long term - so they should dictate what children learn up to a certain
+      age. Regardless, children should be notified about the content of their learning,
+      and feedback should be taken from them to ensure they are benefitting in the
+      long run.
+    Agent 3: yes i do believe that children's views on their education are very important.
+      Children are ultimately those in receipt of the education and will respond appropriately
+      as to whether they deem it functional.
+    Agent 4: Children have a right to have a say in their education. However, the
+      age of the child should be taken into account. The education system is proven
+      to work well but all learning styles are different and not every teaching method
+      suits every child.
+    Agent 5: Yes as at the end of the day it's their future.  If they are being taught
+      things that are not relevant to modern day life it's pointless.  They should
+      be heard
+methods_to_run:
+- finite_lookahead
+finite_lookahead:
+  branching_factor: 3
+  max_depth:
+  - 1
+  - 2
+  - 3
+  max_tokens: 50
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+  brushup: true
+  brushup_model: google/gemma-2-9b-it
+output_dir: results/neurips/

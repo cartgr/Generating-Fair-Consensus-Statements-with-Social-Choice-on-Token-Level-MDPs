@@ -1,0 +1,82 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 3,
+      "beam_search (beam_width=4)": 1,
+      "beam_search (beam_width=6)": 2,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 1 strongly supports increasing taxes to fund a comprehensive benefits system, emphasizing the importance of such a system for societal well-being and security. Statement 2 and Statement 3 both directly state the necessity of tax increases for this purpose, aligning closely with the agent's opinion. Statement 1 also supports a comprehensive benefits system funded by increased taxes, but specifies taxing the wealthy, which is not explicitly mentioned by the agent. Statement 4 is the least detailed, simply stating the action without emphasizing the necessity or benefits, which are key points in the agent's opinion.",
+    "raw_ranking": [
+      2,
+      3,
+      1,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 strongly supports increasing taxes to fund a comprehensive benefits system, emphasizing the importance of such a system for societal well-being and security. Statement 2 and Statement 3 both directly state the necessity of tax increases for this purpose, aligning closely with the agent's opinion. Statement 1 also supports a comprehensive benefits system funded by increased taxes, but specifies taxing the wealthy, which is not explicitly mentioned by the agent. Statement 4 is the least detailed, simply stating the action without emphasizing the necessity or benefits, which are key points in the agent's opinion.\",\n    \"ranking\": [2, 3, 1, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 3,\n        \"beam_search (beam_width=4)\": 1,\n        \"beam_search (beam_width=6)\": 2,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 1,
+      "beam_search (beam_width=4)": 2,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 2 emphasizes the need for a comprehensive overhaul of the benefits system and supports increasing taxes to achieve this, particularly highlighting the need to support vulnerable groups like carers. Statement 1 aligns best with Agent 2's opinion as it explicitly mentions funding improvements through increased taxes on the wealthy, which could imply a more equitable tax strategy. Statements 2 and 3 are identical and align well with Agent 2's view on the necessity of tax increases for funding, but lack the specific mention of targeting the wealthy. Statement 4 is the least detailed, simply stating the need to increase taxes without any context or emphasis on the comprehensive nature of the benefits system.",
+    "raw_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 emphasizes the need for a comprehensive overhaul of the benefits system and supports increasing taxes to achieve this, particularly highlighting the need to support vulnerable groups like carers. Statement 1 aligns best with Agent 2's opinion as it explicitly mentions funding improvements through increased taxes on the wealthy, which could imply a more equitable tax strategy. Statements 2 and 3 are identical and align well with Agent 2's view on the necessity of tax increases for funding, but lack the specific mention of targeting the wealthy. Statement 4 is the least detailed, simply stating the need to increase taxes without any context or emphasis on the comprehensive nature of the benefits system.\",\n    \"ranking\": [1, 2, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 1,\n        \"beam_search (beam_width=4)\": 2,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 1,
+      "beam_search (beam_width=4)": 2,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 3 believes in a more comprehensive benefits system funded by increased taxes on the wealthy, not on those with low incomes. Statement 1 aligns best with this view as it specifies taxing the wealthy. Statements 2 and 3 are identical and mention tax increases but do not specify targeting the wealthy, making them less aligned with Agent 3's opinion. Statement 4 is the least aligned as it suggests a general tax increase without any specification, which could imply taxing low-income individuals as well.",
+    "raw_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 believes in a more comprehensive benefits system funded by increased taxes on the wealthy, not on those with low incomes. Statement 1 aligns best with this view as it specifies taxing the wealthy. Statements 2 and 3 are identical and mention tax increases but do not specify targeting the wealthy, making them less aligned with Agent 3's opinion. Statement 4 is the least aligned as it suggests a general tax increase without any specification, which could imply taxing low-income individuals as well.\",\n    \"ranking\": [1, 2, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 1,\n        \"beam_search (beam_width=4)\": 2,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 1,
+      "beam_search (beam_width=4)": 2,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 4 supports increasing taxes, particularly on the wealthy, to fund a more comprehensive benefits system that improves welfare and access to essential services like medical care. Statement 1 aligns best with Agent 4's opinion as it explicitly mentions taxing the wealthy to fund improvements. Statements 2 and 3 are identical and mention tax increases for a comprehensive benefits system but lack the emphasis on taxing the wealthy. Statement 4 is the least aligned as it is the most generic and does not specify the focus on taxing the wealthy.",
+    "raw_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 supports increasing taxes, particularly on the wealthy, to fund a more comprehensive benefits system that improves welfare and access to essential services like medical care. Statement 1 aligns best with Agent 4's opinion as it explicitly mentions taxing the wealthy to fund improvements. Statements 2 and 3 are identical and mention tax increases for a comprehensive benefits system but lack the emphasis on taxing the wealthy. Statement 4 is the least aligned as it is the most generic and does not specify the focus on taxing the wealthy.\",\n    \"ranking\": [1, 2, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 1,\n        \"beam_search (beam_width=4)\": 2,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 1,
+      "beam_search (beam_width=4)": 2,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 5 emphasizes the need for increased taxes on the wealthy and corporations to address the growing income gap and fund benefits. Statement 1 aligns best with this view by specifically mentioning increased taxes on the wealthy to fund benefits. Statements 2 and 3 are identical and mention tax increases generally, which aligns with the agent's view but lacks specificity about targeting the wealthy. Statement 4 is the least aligned as it lacks any mention of targeting the wealthy or corporations.",
+    "raw_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 emphasizes the need for increased taxes on the wealthy and corporations to address the growing income gap and fund benefits. Statement 1 aligns best with this view by specifically mentioning increased taxes on the wealthy to fund benefits. Statements 2 and 3 are identical and mention tax increases generally, which aligns with the agent's view but lacks specificity about targeting the wealthy. Statement 4 is the least aligned as it lacks any mention of targeting the wealthy or corporations.\",\n    \"ranking\": [1, 2, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 1,\n        \"beam_search (beam_width=4)\": 2,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  }
+}

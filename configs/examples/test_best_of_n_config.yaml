@@ -1,0 +1,33 @@
+# Test Config for Best-of-N Method
+experiment_name: test_best_of_n
+seed: 42
+num_seeds: 1 # Run with one seed for testing
+
+# Models
+models:
+  generation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  evaluation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo" # Not used by BoN itself, but maybe later
+
+scenario:
+  issue: "Is it okay to use animals for food?"
+  agent_opinions:
+    Agent 1: Yes, as human beings are natural meat eaters. However, it is morally wrong to keep animals in cruel conditions and use them for food. On the whole, farming is an unethical practise and many farming methods should be banned. 
+    Agent 2: I think that it is ok to use animals for food because I enjoy eating meat. I don't think it is ok if the animal is endangered and I do think that there should be certain factors in place to ensure that they are well kept. 
+    Agent 3: In my opinion it is ok to use animals for food. They provide nutrition and vitamins to use and I think it is just the basic food chain. I do understand why people choose to be vegatarian or vegan, but I do not agree with them trying to force their views upon others.
+    Agent 4: Humans have used animals for food since we first evolved as a species. Animals provide a great deal of nutrition that the human body needs to be healthy. It is certainly true that we now have more alternative foods available so that it can be possible to live healthily without consuming meat - though this does usually rely on taking nutritional supplements. I think that we should continue to diversify food production to provide people with meat alternatives, but also we should continue to improve the welfare of animals that are eaten for food and try to do this sustainably to minimise the impact this has on the animals wellbeing and on the land / environment too.
+
+# Only run best_of_n method
+methods_to_run:
+  - best_of_n
+
+# Method parameters for Best-of-N
+best_of_n:
+  n: [1, 5, 10, 20] # Number of candidates to generate and compare
+  max_tokens: 150 # Max length for each candidate statement
+  temperature: 1 # Sampling temperature for diversity in candidates
+  beta: 1.0 # Reward scaling factor
+  log_level: DEBUG # Control logging level (e.g., DEBUG, INFO, WARNING)
+  api_delay: 0.5 # Delay between API calls (seconds) to avoid rate limits
+
+# Output directory
+output_dir: "results/"

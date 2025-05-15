@@ -1,0 +1,34 @@
+# Test Config for Finite Lookahead Method
+experiment_name: test_finite_lookahead
+seed: 42
+num_seeds: 1
+
+# Models
+models:
+  generation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  # evaluation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  # generation_model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+  evaluation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+
+# Simple test scenario
+scenario:
+  issue: "Should we build a new bridge across the river?"
+  agent_opinions:
+    Agent 1: "I support building a new bridge across the river to reduce traffic congestion, but we should ensure it includes dedicated lanes for public transportation and pedestrian walkways."
+    Agent 2: "I'm open to a new bridge if we use sustainable materials, minimize environmental impact, and implement reasonable tolls to offset construction costs."
+
+# Only run finite_lookahead method
+methods_to_run:
+  - finite_lookahead
+
+# Method parameters - small values for quicker test
+finite_lookahead:
+  branching_factor: 2
+  max_depth: 2
+  max_tokens: 100
+  beta: 1.0
+  log_level: INFO # Control logging level (e.g., DEBUG, INFO, WARNING)
+  api_delay: 0.5
+
+# Output directory
+output_dir: "results/"

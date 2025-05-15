@@ -1,0 +1,43 @@
+# NeurIPS Experiment: Gemma - Scenario 1 - Finite Lookahead
+experiment_name: neurips_gemma_scenario1_finite_lookahead
+seed: 42
+num_seeds: 3
+
+# Concurrency Settings
+concurrent_execution: true
+max_concurrent_methods: 5
+api_rate_limit: 60
+
+# Models
+models:
+  generation_model: "google/gemma-2-9b-it"
+  evaluation_models:
+    - "google/gemma-2-9b-it"
+    - "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+
+# Scenario 1: Genetic code privacy
+scenario:
+  issue: "Should a person's genetic code be considered private information?"
+  agent_opinions:
+    Agent 1: "I'd like to think it should be considered private information and for the persons privacy to be respected. However, it may be important for research or for the biological family. If the person is open for it, then their opinion should be respected"
+    Agent 2: "A persons genetic code should be considered private information for the sole reason it belongs to them. I can only think of medical case use scenarios when it may be useful to someone else in the case of faulty genes etc being eradicated by using someone else's stem cells or dna to help in this."
+    Agent 3: "The majority of all the genetic code is identical between people. I am undecided on the matter, the differences make us different. But by sharing all the genetic code, this may help prevent and cure illnesses so I would be slightly in favour if used appropriately."
+    Agent 4: "I believe that a person's genetic code should be considered private information, the same way you wouldn't give out your address or personal information to strangers, it should cover your genetic makeup as well as it could be used to screen out people with specific genetic markers and for discrimination in the future. Having access to your genetic information also has the added risk of being potentially harmful to any offspring in the future and I believe that precaution should be taken to ensure that your genetic code is safe from abuse by others."
+
+# Only run finite_lookahead method
+methods_to_run:
+  - finite_lookahead
+
+# Method parameters for Finite Lookahead
+finite_lookahead:
+  branching_factor: 3  # Number of branches to explore at each step
+  max_depth: [1, 2, 3]  # Maximum depth of the search tree
+  max_tokens: 50  # Maximum length of the generated statement
+  beta: 1.0  # Temperature parameter
+  log_level: INFO  # Control logging level (e.g., DEBUG, INFO, WARNING)
+  api_delay: 0.5  # Delay between API calls
+  brushup: true  # Enable statement brushup
+  brushup_model: "google/gemma-2-9b-it"  # Model to use for brushup (same as generation model)
+
+# Output directory
+output_dir: "results/neurips/"

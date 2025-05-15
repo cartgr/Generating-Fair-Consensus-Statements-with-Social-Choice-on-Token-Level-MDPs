@@ -1,0 +1,27 @@
+method,statement,error_message,seed,param_api_delay,param_beta,param_branching_factor,param_brushup,param_brushup_model,param_log_level,param_max_depth,param_max_tokens,param_seed,issue,config_file,evaluation_status,generation_time_s,pre_brushup_statement
+finite_lookahead,"Increasing taxes, especially on high earners, can fund a more comprehensive benefits system, improving the lives of vulnerable people.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,42,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,289.59768986701965,"Increasing taxes, especially on high earners, can fund a more comprehensive benefits system, improving the lives of vulnerable people."
+finite_lookahead,"Increasing taxes, particularly on high earners and corporations, should fund a more comprehensive benefits system.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,42,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,837.0862669944763,"Increasing taxes, particularly on high earners and corporations, should fund a more comprehensive benefits system."
+finite_lookahead,"Increasing taxes, particularly on higher earners and corporations, could fund a more comprehensive benefits system, improving the lives of many.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,42,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,3312.202326774597,"Increasing taxes, particularly on higher earners and corporations, could fund a more comprehensive benefits system, improving the lives of many."
+finite_lookahead,"We need a comprehensive benefits system.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,43,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,375.8864848613739,We need a comprehensive benefits system.
+finite_lookahead,"We should increase taxes, especially on the wealthy, to fund a more comprehensive benefits system. This will help those most in need and create a fairer society.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,43,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,402.18475914001465,"We should increase taxes, especially on the wealthy, to fund a more comprehensive benefits system. This will help those most in need and create a fairer society."
+finite_lookahead,"We should increase taxes to fund a more comprehensive benefits system, focusing on those who need it most.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,43,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,2935.475785255432,"We should increase taxes to fund a more comprehensive benefits system, focusing on those who need it most."
+finite_lookahead,"Increase taxes, especially for high earners and corporations, to fund a more comprehensive benefits system.  
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,44,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,364.50441312789917,"Increase taxes, especially for high earners and corporations, to fund a more comprehensive benefits system.
+
+
+
+
+Please let me know if you have any other questions."
+finite_lookahead,"Increase taxes on the wealthy and corporations to fund a more comprehensive benefits system.  
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,44,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,763.7052018642426,Increase taxes on the wealthy and corporations to fund a more comprehensive benefits system.
+finite_lookahead,"Increase taxes on the wealthy to fund a comprehensive benefits system for all.  
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,44,Should we increase taxes to fund a more comprehensive benefits system?,results/neurips/neurips_gemma_scenario2_finite_lookahead_20250512_152417/config.yaml,pending,3706.2974858283997,"Increase taxes on the wealthy to fund a comprehensive benefits system for all. 
+
+
+Please let me know if you have any other questions."

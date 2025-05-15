@@ -1,0 +1,82 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 1,
+      "beam_search (beam_width=4)": 2,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 1 values children's views but emphasizes the need for adult guidance to ensure a well-rounded education. Statement 1 best captures this balance by mentioning both the importance of children's views and the need for age-appropriate guidance. Statement 2 also acknowledges the role of adults in guiding children, aligning well with the agent's opinion. Statement 3 focuses on children's voices without mentioning adult guidance, which is less aligned with the agent's view. Statement 4 is the least aligned as it only mentions children having a say, without any reference to adult guidance or the importance of a complete education.",
+    "raw_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 values children's views but emphasizes the need for adult guidance to ensure a well-rounded education. Statement 1 best captures this balance by mentioning both the importance of children's views and the need for age-appropriate guidance. Statement 2 also acknowledges the role of adults in guiding children, aligning well with the agent's opinion. Statement 3 focuses on children's voices without mentioning adult guidance, which is less aligned with the agent's view. Statement 4 is the least aligned as it only mentions children having a say, without any reference to adult guidance or the importance of a complete education.\",\n    \"ranking\": [1, 2, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 1,\n        \"beam_search (beam_width=4)\": 2,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 1,
+      "beam_search (beam_width=4)": 2,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 2 believes that children's views are important but should be balanced with adult guidance, especially for subjects that are crucial for their future. Statement 1 captures this balance by emphasizing the need for age-appropriate guidance. Statement 2 also reflects the need for adult guidance but is less explicit about balancing children's views with educational needs. Statement 3 focuses on children's voices but lacks the emphasis on adult guidance. Statement 4 is the least aligned as it only mentions children having a say without any reference to adult guidance or balancing educational needs.",
+    "raw_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 believes that children's views are important but should be balanced with adult guidance, especially for subjects that are crucial for their future. Statement 1 captures this balance by emphasizing the need for age-appropriate guidance. Statement 2 also reflects the need for adult guidance but is less explicit about balancing children's views with educational needs. Statement 3 focuses on children's voices but lacks the emphasis on adult guidance. Statement 4 is the least aligned as it only mentions children having a say without any reference to adult guidance or balancing educational needs.\",\n    \"ranking\": [1, 2, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 1,\n        \"beam_search (beam_width=4)\": 2,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "beam_search (beam_width=6)": 1,
+      "beam_search (beam_width=8)": 2,
+      "beam_search (beam_width=4)": 3,
+      "beam_search (beam_width=2)": 4
+    },
+    "reasoning": "Agent 3 believes that children's views on their education are very important because they are the recipients of the education and can assess its functionality. Statement 3 aligns most closely with this view by emphasizing the importance of children's voices in shaping their learning experiences. Statement 4 also supports the idea that children should have a say, but it is less detailed. Statement 2 acknowledges children's input but shifts focus to adult guidance, which is less aligned with Agent 3's emphasis on children's perspectives. Statement 1, while recognizing the importance of children's views, introduces the idea of balancing them with adult guidance, which is not a focus of Agent 3's opinion.",
+    "raw_ranking": [
+      3,
+      4,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 believes that children's views on their education are very important because they are the recipients of the education and can assess its functionality. Statement 3 aligns most closely with this view by emphasizing the importance of children's voices in shaping their learning experiences. Statement 4 also supports the idea that children should have a say, but it is less detailed. Statement 2 acknowledges children's input but shifts focus to adult guidance, which is less aligned with Agent 3's emphasis on children's perspectives. Statement 1, while recognizing the importance of children's views, introduces the idea of balancing them with adult guidance, which is not a focus of Agent 3's opinion.\",\n    \"ranking\": [3, 4, 2, 1],\n    \"method_ranking\": {\n        \"beam_search (beam_width=6)\": 1,\n        \"beam_search (beam_width=8)\": 2,\n        \"beam_search (beam_width=4)\": 3,\n        \"beam_search (beam_width=2)\": 4\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 1,
+      "beam_search (beam_width=4)": 2,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 4 believes that children should have a say in their education, but emphasizes the importance of considering the child's age and the effectiveness of the education system. Statement 1 aligns best with this view as it mentions balancing children's views with age-appropriate guidance. Statement 2 also reflects the agent's opinion by acknowledging the role of adults in guiding children. Statement 3 highlights the importance of children's voices but lacks the nuance of age consideration. Statement 4 is the least aligned as it simply states children should have a say without any additional context.",
+    "raw_ranking": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 believes that children should have a say in their education, but emphasizes the importance of considering the child's age and the effectiveness of the education system. Statement 1 aligns best with this view as it mentions balancing children's views with age-appropriate guidance. Statement 2 also reflects the agent's opinion by acknowledging the role of adults in guiding children. Statement 3 highlights the importance of children's voices but lacks the nuance of age consideration. Statement 4 is the least aligned as it simply states children should have a say without any additional context.\",\n    \"ranking\": [1, 2, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 1,\n        \"beam_search (beam_width=4)\": 2,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "beam_search (beam_width=6)": 1,
+      "beam_search (beam_width=8)": 2,
+      "beam_search (beam_width=4)": 3,
+      "beam_search (beam_width=2)": 4
+    },
+    "reasoning": "Agent 5 emphasizes the importance of children's views in their education, highlighting that it is their future and they should be heard. Statement 3 aligns most closely with this by stating that children's views are important and they should have a voice in shaping their learning experiences. Statement 4 also supports the idea that children should have a say, but lacks the emphasis on the importance of their views. Statement 2 acknowledges children's input but shifts focus to adult guidance, which is less aligned with Agent 5's emphasis on the children's perspective. Statement 1, while recognizing the importance of children's views, introduces the idea of balancing with educator guidance, which is not a focus of Agent 5's opinion.",
+    "raw_ranking": [
+      3,
+      4,
+      2,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 emphasizes the importance of children's views in their education, highlighting that it is their future and they should be heard. Statement 3 aligns most closely with this by stating that children's views are important and they should have a voice in shaping their learning experiences. Statement 4 also supports the idea that children should have a say, but lacks the emphasis on the importance of their views. Statement 2 acknowledges children's input but shifts focus to adult guidance, which is less aligned with Agent 5's emphasis on the children's perspective. Statement 1, while recognizing the importance of children's views, introduces the idea of balancing with educator guidance, which is not a focus of Agent 5's opinion.\",\n    \"ranking\": [3, 4, 2, 1],\n    \"method_ranking\": {\n        \"beam_search (beam_width=6)\": 1,\n        \"beam_search (beam_width=8)\": 2,\n        \"beam_search (beam_width=4)\": 3,\n        \"beam_search (beam_width=2)\": 4\n    }\n}"
+  }
+}

@@ -1,0 +1,35 @@
+# Test Config for MCTS Method
+experiment_name: test_mcts
+seed: 42
+num_seeds: 1
+
+# Models (Using the same as beam search example)
+models:
+  generation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  evaluation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+
+# Simple test scenario (Using the same as beam search example)
+scenario:
+  issue: "Should we build a new bridge across the river?"
+  agent_opinions:
+    Agent 1: "I support building a new bridge across the river to reduce traffic congestion, but we should ensure it includes dedicated lanes for public transportation and pedestrian walkways."
+    Agent 2: "I'm open to a new bridge if we use sustainable materials, minimize environmental impact, and implement reasonable tolls to offset construction costs."
+
+# Only run mcts method
+methods_to_run:
+  - mcts
+
+# Method parameters for MCTS
+mcts:
+  num_simulations: 3       # Number of MCTS simulations per token generation step
+  exploration_constant: 1.414 # UCB1 exploration constant (sqrt(2))
+  max_tokens: 10           # Maximum length of the generated statement
+  log_level: DEBUG           # Control logging level (e.g., DEBUG, INFO, WARNING)
+  api_delay: 0.5            # Delay between API calls (seconds)
+  expansion_sample_width: 2 # How many unique tokens to sample when expanding a node
+  max_sampling_attempts: 15 # Max API calls to get expansion_sample_width unique tokens
+  rollout_depth: 12
+  gamma: 0.99  # Weight for rollout reward (0.99 = heavily favor rollout reward)
+
+# Output directory
+output_dir: "results/"

@@ -1,0 +1,130 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 3,
+      "best_of_n (n=3.0)": 1,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 10,
+      "best_of_n (n=5.0)": 2,
+      "best_of_n (n=10.0)": 4,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 12,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 11,
+      "best_of_n (n=20.0)": 5,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 7,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 8,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 9,
+      "best_of_n (n=50.0)": 6
+    },
+    "reasoning": "Agent 1 believes genetic information should be private but acknowledges exceptions for research or family, provided the individual consents. Statements that emphasize privacy, individual autonomy, and informed consent align best with this view. Statements that focus heavily on privacy without mentioning consent or potential benefits are less aligned.",
+    "raw_ranking": [
+      2,
+      4,
+      1,
+      5,
+      8,
+      12,
+      9,
+      10,
+      11,
+      3,
+      7,
+      6
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 believes genetic information should be private but acknowledges exceptions for research or family, provided the individual consents. Statements that emphasize privacy, individual autonomy, and informed consent align best with this view. Statements that focus heavily on privacy without mentioning consent or potential benefits are less aligned.\",\n    \"ranking\": [2, 4, 1, 5, 8, 12, 9, 10, 11, 3, 7, 6],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 3,\n        \"best_of_n (n=3.0)\": 1,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 10,\n        \"best_of_n (n=5.0)\": 2,\n        \"best_of_n (n=10.0)\": 4,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 12,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 11,\n        \"best_of_n (n=20.0)\": 5,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 7,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 8,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 9,\n        \"best_of_n (n=50.0)\": 6\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 3,
+      "best_of_n (n=3.0)": 1,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 7,
+      "best_of_n (n=5.0)": 2,
+      "best_of_n (n=10.0)": 5,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 12,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 9,
+      "best_of_n (n=20.0)": 6,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 8,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 8,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 11,
+      "best_of_n (n=50.0)": 4
+    },
+    "reasoning": "Agent 2 emphasizes the privacy of genetic information, with exceptions primarily for medical purposes. The agent's focus is on individual ownership of genetic data and its use in medical scenarios, particularly with informed consent. Statements that align closely with these views, especially those highlighting medical use with consent, are ranked higher.",
+    "raw_ranking": [
+      2,
+      4,
+      1,
+      12,
+      5,
+      8,
+      3,
+      10,
+      7,
+      9,
+      11,
+      6
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 emphasizes the privacy of genetic information, with exceptions primarily for medical purposes. The agent's focus is on individual ownership of genetic data and its use in medical scenarios, particularly with informed consent. Statements that align closely with these views, especially those highlighting medical use with consent, are ranked higher.\",\n    \"ranking\": [2, 4, 1, 12, 5, 8, 3, 10, 7, 9, 11, 6],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 3,\n        \"best_of_n (n=3.0)\": 1,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 7,\n        \"best_of_n (n=5.0)\": 2,\n        \"best_of_n (n=10.0)\": 5,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 12,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 9,\n        \"best_of_n (n=20.0)\": 6,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 8,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 8,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 11,\n        \"best_of_n (n=50.0)\": 4\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 7,
+      "best_of_n (n=3.0)": 9,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 10,
+      "best_of_n (n=5.0)": 8,
+      "best_of_n (n=10.0)": 4,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 12,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 6,
+      "best_of_n (n=20.0)": 5,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 2,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 1,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 11,
+      "best_of_n (n=50.0)": 3
+    },
+    "reasoning": "Agent 3 is slightly in favor of sharing genetic information if it is used appropriately for medical advancements, while also acknowledging the importance of privacy. The agent is undecided but leans towards sharing for medical benefits. Therefore, statements that balance privacy with the potential benefits of sharing genetic information for medical purposes align best with Agent 3's opinion. Statements that emphasize strict privacy without acknowledging the potential benefits are less aligned with the agent's view.",
+    "raw_ranking": [
+      10,
+      9,
+      12,
+      5,
+      8,
+      7,
+      1,
+      4,
+      2,
+      3,
+      11,
+      6
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 is slightly in favor of sharing genetic information if it is used appropriately for medical advancements, while also acknowledging the importance of privacy. The agent is undecided but leans towards sharing for medical benefits. Therefore, statements that balance privacy with the potential benefits of sharing genetic information for medical purposes align best with Agent 3's opinion. Statements that emphasize strict privacy without acknowledging the potential benefits are less aligned with the agent's view.\",\n    \"ranking\": [10, 9, 12, 5, 8, 7, 1, 4, 2, 3, 11, 6],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 7,\n        \"best_of_n (n=3.0)\": 9,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 10,\n        \"best_of_n (n=5.0)\": 8,\n        \"best_of_n (n=10.0)\": 4,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 12,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 6,\n        \"best_of_n (n=20.0)\": 5,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 2,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 1,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 11,\n        \"best_of_n (n=50.0)\": 3\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 4,
+      "best_of_n (n=3.0)": 3,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 12,
+      "best_of_n (n=5.0)": 5,
+      "best_of_n (n=10.0)": 1,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 7,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 8,
+      "best_of_n (n=20.0)": 2,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 11,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 9,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 6,
+      "best_of_n (n=50.0)": 10
+    },
+    "reasoning": "Agent 4 emphasizes the importance of treating genetic information as private to prevent misuse and discrimination, with a strong focus on safeguarding against potential harm to individuals and their offspring. Statements that align closely with these concerns, particularly those emphasizing privacy, consent, and protection against discrimination, are ranked higher. Statements that focus more on the potential benefits of sharing genetic information without equally strong emphasis on privacy and protection are ranked lower.",
+    "raw_ranking": [
+      5,
+      8,
+      2,
+      1,
+      4,
+      11,
+      6,
+      7,
+      10,
+      12,
+      9,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 emphasizes the importance of treating genetic information as private to prevent misuse and discrimination, with a strong focus on safeguarding against potential harm to individuals and their offspring. Statements that align closely with these concerns, particularly those emphasizing privacy, consent, and protection against discrimination, are ranked higher. Statements that focus more on the potential benefits of sharing genetic information without equally strong emphasis on privacy and protection are ranked lower.\",\n    \"ranking\": [5, 8, 2, 1, 4, 11, 6, 7, 10, 12, 9, 3],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 4,\n        \"best_of_n (n=3.0)\": 3,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 12,\n        \"best_of_n (n=5.0)\": 5,\n        \"best_of_n (n=10.0)\": 1,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 7,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 8,\n        \"best_of_n (n=20.0)\": 2,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 11,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 9,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 6,\n        \"best_of_n (n=50.0)\": 10\n    }\n}"
+  }
+}

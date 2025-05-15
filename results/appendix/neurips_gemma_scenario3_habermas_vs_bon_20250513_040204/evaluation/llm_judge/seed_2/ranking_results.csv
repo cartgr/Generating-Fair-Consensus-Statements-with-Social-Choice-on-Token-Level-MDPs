@@ -1,0 +1,13 @@
+method,seed,method_with_params,param_n,min_rank,max_rank,avg_rank,rank_Agent 1,rank_Agent 2,rank_Agent 3,rank_Agent 4,rank_Agent 5,is_maximin_best,is_utilitarian_best,param_num_candidates,param_num_rounds
+best_of_n,44,best_of_n (n=1.0),1.0,1,12,7.0,6,1,12,10,6,0,0,,
+best_of_n,44,best_of_n (n=3.0),3.0,5,11,8.2,9,9,5,11,7,0,0,,
+habermas_machine,44,"habermas_machine (num_candidates=1.0, num_rounds=1.0)",,11,12,11.4,11,12,11,12,11,0,0,1.0,1.0
+best_of_n,44,best_of_n (n=5.0),5.0,2,9,6.0,7,6,9,6,2,0,0,,
+best_of_n,44,best_of_n (n=10.0),10.0,3,5,4.0,4,5,3,5,3,1,0,,
+habermas_machine,44,"habermas_machine (num_candidates=3.0, num_rounds=1.0)",,5,8,7.0,8,7,8,7,5,0,0,3.0,1.0
+habermas_machine,44,"habermas_machine (num_candidates=5.0, num_rounds=1.0)",,2,9,4.0,2,3,2,4,9,0,0,5.0,1.0
+best_of_n,44,best_of_n (n=20.0),20.0,4,12,9.2,10,11,4,9,12,0,0,,
+habermas_machine,44,"habermas_machine (num_candidates=10.0, num_rounds=1.0)",,1,10,6.4,5,8,1,8,10,0,0,10.0,1.0
+habermas_machine,44,"habermas_machine (num_candidates=20.0, num_rounds=1.0)",,1,6,3.0,1,2,6,2,4,0,1,20.0,1.0
+habermas_machine,44,"habermas_machine (num_candidates=50.0, num_rounds=1.0)",,3,8,5.0,3,4,7,3,8,0,0,50.0,1.0
+best_of_n,44,best_of_n (n=50.0),50.0,1,12,6.8,12,10,10,1,1,0,0,,

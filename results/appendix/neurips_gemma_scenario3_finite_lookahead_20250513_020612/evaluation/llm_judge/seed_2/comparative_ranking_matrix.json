@@ -1,0 +1,72 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 3,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 2
+    },
+    "reasoning": "Agent 1 is against banning alcohol and cigarettes in public places, emphasizing the importance of personal responsibility and the economic impact on the hospitality industry. Statement 2 aligns best with Agent 1's opinion as it directly states that the reasoning does not support a ban, which is in line with Agent 1's view. Statement 1 and Statement 3 focus on education and awareness, which are not mentioned by Agent 1, but they still oppose the ban. Statement 3 is slightly more aligned than Statement 1 because it mentions responsible consumption, which is closer to Agent 1's emphasis on responsible behavior.",
+    "raw_ranking": [
+      2,
+      3,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 is against banning alcohol and cigarettes in public places, emphasizing the importance of personal responsibility and the economic impact on the hospitality industry. Statement 2 aligns best with Agent 1's opinion as it directly states that the reasoning does not support a ban, which is in line with Agent 1's view. Statement 1 and Statement 3 focus on education and awareness, which are not mentioned by Agent 1, but they still oppose the ban. Statement 3 is slightly more aligned than Statement 1 because it mentions responsible consumption, which is closer to Agent 1's emphasis on responsible behavior.\",\n    \"ranking\": [2, 3, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 3,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 2\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=2)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 3
+    },
+    "reasoning": "Agent 2 believes that banning alcohol and cigarettes in public places is not the solution and suggests targeting antisocial behavior instead. Statement 2 aligns best with this view as it directly states that the reasoning does not support a ban, which implies a focus on more targeted measures. Statement 1 and Statement 3 both suggest education and awareness campaigns, which are not mentioned by Agent 2, but Statement 3 is slightly more aligned as it mentions promoting responsible consumption, which could be seen as a more targeted approach than general education.",
+    "raw_ranking": [
+      2,
+      3,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 believes that banning alcohol and cigarettes in public places is not the solution and suggests targeting antisocial behavior instead. Statement 2 aligns best with this view as it directly states that the reasoning does not support a ban, which implies a focus on more targeted measures. Statement 1 and Statement 3 both suggest education and awareness campaigns, which are not mentioned by Agent 2, but Statement 3 is slightly more aligned as it mentions promoting responsible consumption, which could be seen as a more targeted approach than general education.\",\n    \"ranking\": [2, 3, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 3\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 3,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 2
+    },
+    "reasoning": "Agent 3 is primarily concerned with the practical implications of banning alcohol and cigarettes, specifically the potential for increased crime and underground sales. None of the statements directly address these concerns, but Statement 2 is closest as it mentions that reasoning does not support a ban, which aligns with Agent 3's view that a ban would not work in practice. Statements 1 and 3 focus on education and awareness, which are not part of Agent 3's stated concerns, but they do not contradict the agent's opinion either. Statement 3 is slightly better than Statement 1 because it mentions responsible consumption, which indirectly aligns with the agent's interest in practical solutions.",
+    "raw_ranking": [
+      2,
+      3,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 is primarily concerned with the practical implications of banning alcohol and cigarettes, specifically the potential for increased crime and underground sales. None of the statements directly address these concerns, but Statement 2 is closest as it mentions that reasoning does not support a ban, which aligns with Agent 3's view that a ban would not work in practice. Statements 1 and 3 focus on education and awareness, which are not part of Agent 3's stated concerns, but they do not contradict the agent's opinion either. Statement 3 is slightly better than Statement 1 because it mentions responsible consumption, which indirectly aligns with the agent's interest in practical solutions.\",\n    \"ranking\": [2, 3, 1],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 3,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 2\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3
+    },
+    "reasoning": "Agent 4 is uncertain about banning alcohol but supports banning cigarettes. They express concern about becoming a nanny state and emphasize personal responsibility. Statement 3 aligns best with Agent 4's view by focusing on education and responsible consumption rather than outright bans. Statement 1 also emphasizes education but lacks the specific focus on responsible consumption. Statement 2 is the least aligned as it merely states that reasoning does not support a ban without addressing the agent's concerns about personal responsibility and the risk of a nanny state.",
+    "raw_ranking": [
+      3,
+      1,
+      2
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 is uncertain about banning alcohol but supports banning cigarettes. They express concern about becoming a nanny state and emphasize personal responsibility. Statement 3 aligns best with Agent 4's view by focusing on education and responsible consumption rather than outright bans. Statement 1 also emphasizes education but lacks the specific focus on responsible consumption. Statement 2 is the least aligned as it merely states that reasoning does not support a ban without addressing the agent's concerns about personal responsibility and the risk of a nanny state.\",\n    \"ranking\": [3, 1, 2],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 3,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 1
+    },
+    "reasoning": "Agent 5 believes that alcohol and cigarettes should not be banned in public places and emphasizes responsible consumption. Statement 3 aligns best with Agent 5's opinion as it focuses on promoting responsible consumption rather than a ban. Statement 1 also aligns with the agent's view by suggesting education and awareness, but it does not specifically mention responsible consumption. Statement 2 is the least aligned as it lacks any mention of responsible consumption or alternative solutions, focusing only on the lack of support for a ban.",
+    "raw_ranking": [
+      3,
+      1,
+      2
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 believes that alcohol and cigarettes should not be banned in public places and emphasizes responsible consumption. Statement 3 aligns best with Agent 5's opinion as it focuses on promoting responsible consumption rather than a ban. Statement 1 also aligns with the agent's view by suggesting education and awareness, but it does not specifically mention responsible consumption. Statement 2 is the least aligned as it lacks any mention of responsible consumption or alternative solutions, focusing only on the lack of support for a ban.\",\n    \"ranking\": [3, 1, 2],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 3,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 1\n    }\n}"
+  }
+}

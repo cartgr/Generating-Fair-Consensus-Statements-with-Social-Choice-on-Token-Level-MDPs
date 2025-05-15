@@ -1,0 +1,58 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 1 believes genetic information should be private but acknowledges exceptions for research and family, provided the person consents. Statement 1 aligns best with this view by emphasizing protection, authorized access, and informed consent. Statement 2 focuses on privacy and autonomy but lacks mention of consent for research, making it less aligned. Statement 3 is the least aligned as it only mentions privacy and confidentiality without addressing consent or exceptions.",
+    "raw_ranking": [
+      1,
+      2,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 believes genetic information should be private but acknowledges exceptions for research and family, provided the person consents. Statement 1 aligns best with this view by emphasizing protection, authorized access, and informed consent. Statement 2 focuses on privacy and autonomy but lacks mention of consent for research, making it less aligned. Statement 3 is the least aligned as it only mentions privacy and confidentiality without addressing consent or exceptions.\",\n    \"ranking\": [1, 2, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=2)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 2 believes that genetic information should be private because it belongs to the individual, with exceptions for medical use. Statement 2 aligns best with this view by emphasizing privacy and autonomy. Statement 1 also supports privacy but introduces conditions for access, which is less aligned with the agent's primary focus on ownership. Statement 3 is the least aligned as it lacks the emphasis on individual ownership and autonomy.",
+    "raw_ranking": [
+      2,
+      1,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 believes that genetic information should be private because it belongs to the individual, with exceptions for medical use. Statement 2 aligns best with this view by emphasizing privacy and autonomy. Statement 1 also supports privacy but introduces conditions for access, which is less aligned with the agent's primary focus on ownership. Statement 3 is the least aligned as it lacks the emphasis on individual ownership and autonomy.\",\n    \"ranking\": [2, 1, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=1)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=2)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 3 is slightly in favor of sharing genetic information if it is used appropriately to help prevent and cure illnesses. Statement 1 aligns best with this view as it allows for sharing under controlled conditions for legitimate medical research. Statement 2 emphasizes privacy and autonomy, which does not align with Agent 3's slight favor towards sharing for medical benefits. Statement 3 focuses solely on privacy and confidentiality, which is the least aligned with Agent 3's opinion.",
+    "raw_ranking": [
+      1,
+      2,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 is slightly in favor of sharing genetic information if it is used appropriately to help prevent and cure illnesses. Statement 1 aligns best with this view as it allows for sharing under controlled conditions for legitimate medical research. Statement 2 emphasizes privacy and autonomy, which does not align with Agent 3's slight favor towards sharing for medical benefits. Statement 3 focuses solely on privacy and confidentiality, which is the least aligned with Agent 3's opinion.\",\n    \"ranking\": [1, 2, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "finite_lookahead (branching_factor=3, max_depth=2)": 1,
+      "finite_lookahead (branching_factor=3, max_depth=1)": 2,
+      "finite_lookahead (branching_factor=3, max_depth=3)": 3
+    },
+    "reasoning": "Agent 4 emphasizes the importance of treating genetic information as private to prevent discrimination and potential harm to future offspring. Statement 2 aligns closely with this view by highlighting privacy, individual autonomy, and safeguarding against misuse. Statement 1 also supports privacy but focuses more on access for medical research, which is less aligned with Agent 4's concerns about discrimination and future harm. Statement 3 is the most general, lacking specific references to misuse or future risks, making it the least aligned with Agent 4's detailed concerns.",
+    "raw_ranking": [
+      2,
+      1,
+      3
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 emphasizes the importance of treating genetic information as private to prevent discrimination and potential harm to future offspring. Statement 2 aligns closely with this view by highlighting privacy, individual autonomy, and safeguarding against misuse. Statement 1 also supports privacy but focuses more on access for medical research, which is less aligned with Agent 4's concerns about discrimination and future harm. Statement 3 is the most general, lacking specific references to misuse or future risks, making it the least aligned with Agent 4's detailed concerns.\",\n    \"ranking\": [2, 1, 3],\n    \"method_ranking\": {\n        \"finite_lookahead (branching_factor=3, max_depth=2)\": 1,\n        \"finite_lookahead (branching_factor=3, max_depth=1)\": 2,\n        \"finite_lookahead (branching_factor=3, max_depth=3)\": 3\n    }\n}"
+  }
+}

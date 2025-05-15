@@ -1,0 +1,5 @@
+method,seed,method_with_params,param_beam_width,min_rank,max_rank,avg_rank,rank_Agent 1,rank_Agent 2,rank_Agent 3,rank_Agent 4,is_maximin_best,is_utilitarian_best
+beam_search,43,beam_search (beam_width=2),2,1,3,2.0,1,3,1,3,1,1
+beam_search,43,beam_search (beam_width=4),4,2,4,3.0,2,4,2,4,0,0
+beam_search,43,beam_search (beam_width=6),6,1,3,2.0,3,1,3,1,0,0
+beam_search,43,beam_search (beam_width=8),8,2,4,3.0,4,2,4,2,0,0

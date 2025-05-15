@@ -1,0 +1,162 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 2,
+      "best_of_n (n=3.0)": 9,
+      "best_of_n (n=5.0)": 10,
+      "best_of_n (n=10.0)": 11,
+      "best_of_n (n=20.0)": 12,
+      "best_of_n (n=50.0)": 1,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 8,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 3,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 7,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 6,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 4
+    },
+    "reasoning": "Agent 1's opinion is critical of the EU, emphasizing its bloated nature and negative impact on cultural identities. Therefore, statements that highlight the drawbacks of EU membership or the benefits of leaving the EU align more closely with Agent 1's perspective. Statements that focus on the benefits of EU membership or suggest rejoining are less aligned with Agent 1's views.",
+    "raw_ranking": [
+      12,
+      1,
+      6,
+      11,
+      10,
+      9,
+      7,
+      3,
+      2,
+      4,
+      5,
+      8
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1's opinion is critical of the EU, emphasizing its bloated nature and negative impact on cultural identities. Therefore, statements that highlight the drawbacks of EU membership or the benefits of leaving the EU align more closely with Agent 1's perspective. Statements that focus on the benefits of EU membership or suggest rejoining are less aligned with Agent 1's views.\",\n    \"ranking\": [12, 1, 6, 11, 10, 9, 7, 3, 2, 4, 5, 8],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 2,\n        \"best_of_n (n=3.0)\": 9,\n        \"best_of_n (n=5.0)\": 10,\n        \"best_of_n (n=10.0)\": 11,\n        \"best_of_n (n=20.0)\": 12,\n        \"best_of_n (n=50.0)\": 1,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 8,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 3,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 7,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 6,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 5,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 4\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 12,
+      "best_of_n (n=3.0)": 8,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 10,
+      "best_of_n (n=5.0)": 5,
+      "best_of_n (n=10.0)": 6,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 3,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 1,
+      "best_of_n (n=20.0)": 7,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 2,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 9,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 4,
+      "best_of_n (n=50.0)": 11
+    },
+    "reasoning": "Agent 2 believes the UK would be better off inside the EU due to the negative impacts of Brexit on trade and administration, and the divided national mood. Statements that emphasize the economic and societal challenges faced by the UK outside the EU, and the benefits of EU membership, align best with Agent 2's opinion. Statements that acknowledge the complexity of the issue but highlight the negative impact of leaving the EU are also favorable. Statements that are neutral or focus on the complexity without addressing the negative impacts are less aligned with Agent 2's view.",
+    "raw_ranking": [
+      7,
+      9,
+      6,
+      11,
+      4,
+      5,
+      8,
+      2,
+      10,
+      3,
+      12,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 believes the UK would be better off inside the EU due to the negative impacts of Brexit on trade and administration, and the divided national mood. Statements that emphasize the economic and societal challenges faced by the UK outside the EU, and the benefits of EU membership, align best with Agent 2's opinion. Statements that acknowledge the complexity of the issue but highlight the negative impact of leaving the EU are also favorable. Statements that are neutral or focus on the complexity without addressing the negative impacts are less aligned with Agent 2's view.\",\n    \"ranking\": [7, 9, 6, 11, 4, 5, 8, 2, 10, 3, 12, 1],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 12,\n        \"best_of_n (n=3.0)\": 8,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 10,\n        \"best_of_n (n=5.0)\": 5,\n        \"best_of_n (n=10.0)\": 6,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 3,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 1,\n        \"best_of_n (n=20.0)\": 7,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 2,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 9,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 4,\n        \"best_of_n (n=50.0)\": 11\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 1,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 2,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 3,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 4,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 6,
+      "best_of_n (n=5.0)": 7,
+      "best_of_n (n=10.0)": 8,
+      "best_of_n (n=20.0)": 9,
+      "best_of_n (n=3.0)": 10,
+      "best_of_n (n=1.0)": 11,
+      "best_of_n (n=50.0)": 12
+    },
+    "reasoning": "Agent 3 believes the UK was better off inside the EU, citing economic and social disadvantages post-Brexit. Statements that emphasize the negative impacts of leaving the EU and the benefits of EU membership align best with this view. Statements that acknowledge the complexity of the issue without a clear stance on the benefits of EU membership are less aligned.",
+    "raw_ranking": [
+      9,
+      7,
+      6,
+      3,
+      10,
+      11,
+      4,
+      5,
+      8,
+      2,
+      1,
+      12
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 believes the UK was better off inside the EU, citing economic and social disadvantages post-Brexit. Statements that emphasize the negative impacts of leaving the EU and the benefits of EU membership align best with this view. Statements that acknowledge the complexity of the issue without a clear stance on the benefits of EU membership are less aligned.\",\n    \"ranking\": [9, 7, 6, 3, 10, 11, 4, 5, 8, 2, 1, 12],\n    \"method_ranking\": {\n        \"habermas_machine\": 1,\n        \"best_of_n\": 7\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 11,
+      "best_of_n (n=3.0)": 9,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 10,
+      "best_of_n (n=5.0)": 6,
+      "best_of_n (n=10.0)": 7,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 1,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 2,
+      "best_of_n (n=20.0)": 8,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 4,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 3,
+      "best_of_n (n=50.0)": 12
+    },
+    "reasoning": "Agent 4 believes that the UK is better off within the EU due to the benefits of collaboration, shared resources, and global influence. Statements that emphasize the positive aspects of EU membership and the negative impacts of Brexit align well with Agent 4's views. Statements that focus on the complexity of the issue without a clear stance on the benefits of EU membership are less aligned with Agent 4's opinion.",
+    "raw_ranking": [
+      6,
+      7,
+      11,
+      9,
+      10,
+      4,
+      5,
+      8,
+      2,
+      3,
+      1,
+      12
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 believes that the UK is better off within the EU due to the benefits of collaboration, shared resources, and global influence. Statements that emphasize the positive aspects of EU membership and the negative impacts of Brexit align well with Agent 4's views. Statements that focus on the complexity of the issue without a clear stance on the benefits of EU membership are less aligned with Agent 4's opinion.\",\n    \"ranking\": [6, 7, 11, 9, 10, 4, 5, 8, 2, 3, 1, 12],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 11,\n        \"best_of_n (n=3.0)\": 9,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 10,\n        \"best_of_n (n=5.0)\": 6,\n        \"best_of_n (n=10.0)\": 7,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 1,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 2,\n        \"best_of_n (n=20.0)\": 8,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 4,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 5,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 3,\n        \"best_of_n (n=50.0)\": 12\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 12,
+      "best_of_n (n=3.0)": 10,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 5,
+      "best_of_n (n=5.0)": 7,
+      "best_of_n (n=10.0)": 8,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 3,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 2,
+      "best_of_n (n=20.0)": 9,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 1,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 6,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 4,
+      "best_of_n (n=50.0)": 11
+    },
+    "reasoning": "Agent 5 strongly believes that the UK is better off within the EU, emphasizing the economic benefits, job creation, and international influence that come with EU membership. Statements that highlight the negative impacts of leaving the EU and the benefits of EU membership align closely with Agent 5's views. Statements that present a balanced view or focus on the complexity of the issue without emphasizing the benefits of EU membership are less aligned with Agent 5's opinion.",
+    "raw_ranking": [
+      9,
+      7,
+      6,
+      11,
+      3,
+      10,
+      4,
+      5,
+      8,
+      2,
+      12,
+      1
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 strongly believes that the UK is better off within the EU, emphasizing the economic benefits, job creation, and international influence that come with EU membership. Statements that highlight the negative impacts of leaving the EU and the benefits of EU membership align closely with Agent 5's views. Statements that present a balanced view or focus on the complexity of the issue without emphasizing the benefits of EU membership are less aligned with Agent 5's opinion.\",\n    \"ranking\": [9, 7, 6, 11, 3, 10, 4, 5, 8, 2, 12, 1],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 12,\n        \"best_of_n (n=3.0)\": 10,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 5,\n        \"best_of_n (n=5.0)\": 7,\n        \"best_of_n (n=10.0)\": 8,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 3,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 2,\n        \"best_of_n (n=20.0)\": 9,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 1,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 6,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 4,\n        \"best_of_n (n=50.0)\": 11\n    }\n}"
+  }
+}

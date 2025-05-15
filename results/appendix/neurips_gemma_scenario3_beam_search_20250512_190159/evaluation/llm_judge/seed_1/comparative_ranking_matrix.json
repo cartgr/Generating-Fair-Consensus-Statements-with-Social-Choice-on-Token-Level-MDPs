@@ -1,0 +1,82 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 2,
+      "beam_search (beam_width=4)": 1,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 1 is against banning alcohol and cigarettes in public places, emphasizing personal responsibility and the negative impact on the hospitality industry. Statement 2 aligns best with Agent 1's opinion by focusing on responsible consumption and education rather than a ban. Statement 1 also aligns well by highlighting personal responsibility. Statement 3 is similar but lacks the emphasis on responsibility and education. Statement 4 is the least aligned as it suggests public places should not be smoke-free zones, which is not directly related to the agent's focus on the economic impact and personal choice.",
+    "raw_ranking": [
+      2,
+      1,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 is against banning alcohol and cigarettes in public places, emphasizing personal responsibility and the negative impact on the hospitality industry. Statement 2 aligns best with Agent 1's opinion by focusing on responsible consumption and education rather than a ban. Statement 1 also aligns well by highlighting personal responsibility. Statement 3 is similar but lacks the emphasis on responsibility and education. Statement 4 is the least aligned as it suggests public places should not be smoke-free zones, which is not directly related to the agent's focus on the economic impact and personal choice.\",\n    \"ranking\": [2, 1, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 2,\n        \"beam_search (beam_width=4)\": 1,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 3,
+      "beam_search (beam_width=4)": 1,
+      "beam_search (beam_width=6)": 2,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 2 believes that a ban on alcohol and cigarettes in public places is not the solution and suggests targeting antisocial behavior instead. Statement 2 aligns best with this view by rejecting a blanket ban and emphasizing responsible consumption and education, which implies a more targeted approach. Statement 3 also rejects a blanket ban but lacks the additional context of focusing on responsible behavior. Statement 1 argues against a ban by emphasizing personal responsibility, which is somewhat aligned but less specific to Agent 2's focus on antisocial behavior. Statement 4 is the least aligned as it suggests public places should not be smoke-free zones, which is not directly related to Agent 2's opinion on targeting antisocial behavior.",
+    "raw_ranking": [
+      2,
+      3,
+      1,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 believes that a ban on alcohol and cigarettes in public places is not the solution and suggests targeting antisocial behavior instead. Statement 2 aligns best with this view by rejecting a blanket ban and emphasizing responsible consumption and education, which implies a more targeted approach. Statement 3 also rejects a blanket ban but lacks the additional context of focusing on responsible behavior. Statement 1 argues against a ban by emphasizing personal responsibility, which is somewhat aligned but less specific to Agent 2's focus on antisocial behavior. Statement 4 is the least aligned as it suggests public places should not be smoke-free zones, which is not directly related to Agent 2's opinion on targeting antisocial behavior.\",\n    \"ranking\": [2, 3, 1, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 3,\n        \"beam_search (beam_width=4)\": 1,\n        \"beam_search (beam_width=6)\": 2,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "beam_search (beam_width=6)": 1,
+      "beam_search (beam_width=4)": 2,
+      "beam_search (beam_width=2)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 3 is against the ban on alcohol and cigarettes in public places due to concerns about driving sales underground and increasing crime. Statement 3 directly aligns with this view by stating a blanket ban is not the answer, without introducing other elements. Statement 2 also aligns well by rejecting a blanket ban and suggesting a focus on responsible consumption, which is somewhat related to Agent 3's concerns about practical implications. Statement 1 mentions personal responsibility, which is not a focus of Agent 3's argument, but it does oppose the ban. Statement 4 is the least aligned as it suggests public places should not be smoke-free zones, which is not directly related to Agent 3's argument against a ban.",
+    "raw_ranking": [
+      3,
+      2,
+      1,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 is against the ban on alcohol and cigarettes in public places due to concerns about driving sales underground and increasing crime. Statement 3 directly aligns with this view by stating a blanket ban is not the answer, without introducing other elements. Statement 2 also aligns well by rejecting a blanket ban and suggesting a focus on responsible consumption, which is somewhat related to Agent 3's concerns about practical implications. Statement 1 mentions personal responsibility, which is not a focus of Agent 3's argument, but it does oppose the ban. Statement 4 is the least aligned as it suggests public places should not be smoke-free zones, which is not directly related to Agent 3's argument against a ban.\",\n    \"ranking\": [3, 2, 1, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=6)\": 1,\n        \"beam_search (beam_width=4)\": 2,\n        \"beam_search (beam_width=2)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 2,
+      "beam_search (beam_width=4)": 1,
+      "beam_search (beam_width=6)": 3,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 4 is conflicted about banning alcohol but is more certain about banning cigarettes. They express concern about becoming a nanny state and emphasize personal responsibility. Statement 2 aligns best with Agent 4's view by focusing on responsible consumption and education rather than a blanket ban. Statement 1 also aligns well by emphasizing personal responsibility and opposing a ban. Statement 3 is similar but lacks the emphasis on personal responsibility. Statement 4 is the least aligned as it suggests public places should not be smoke-free, which contradicts Agent 4's support for banning cigarettes.",
+    "raw_ranking": [
+      2,
+      1,
+      3,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 is conflicted about banning alcohol but is more certain about banning cigarettes. They express concern about becoming a nanny state and emphasize personal responsibility. Statement 2 aligns best with Agent 4's view by focusing on responsible consumption and education rather than a blanket ban. Statement 1 also aligns well by emphasizing personal responsibility and opposing a ban. Statement 3 is similar but lacks the emphasis on personal responsibility. Statement 4 is the least aligned as it suggests public places should not be smoke-free, which contradicts Agent 4's support for banning cigarettes.\",\n    \"ranking\": [2, 1, 3, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 2,\n        \"beam_search (beam_width=4)\": 1,\n        \"beam_search (beam_width=6)\": 3,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "beam_search (beam_width=2)": 3,
+      "beam_search (beam_width=4)": 1,
+      "beam_search (beam_width=6)": 2,
+      "beam_search (beam_width=8)": 4
+    },
+    "reasoning": "Agent 5 believes that alcohol and cigarettes should not be banned in public places, emphasizing responsible consumption and legal age restrictions. Statement 2 aligns best with this view by rejecting a blanket ban and focusing on responsible consumption and education. Statement 3 also rejects a blanket ban but lacks the emphasis on responsibility and education. Statement 1 argues against a ban by highlighting personal responsibility, which aligns with Agent 5's view but is less comprehensive than Statement 2. Statement 4, which suggests public places should not be smoke-free zones, does not directly address the issue of banning sales and is less aligned with Agent 5's opinion.",
+    "raw_ranking": [
+      2,
+      3,
+      1,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 believes that alcohol and cigarettes should not be banned in public places, emphasizing responsible consumption and legal age restrictions. Statement 2 aligns best with this view by rejecting a blanket ban and focusing on responsible consumption and education. Statement 3 also rejects a blanket ban but lacks the emphasis on responsibility and education. Statement 1 argues against a ban by highlighting personal responsibility, which aligns with Agent 5's view but is less comprehensive than Statement 2. Statement 4, which suggests public places should not be smoke-free zones, does not directly address the issue of banning sales and is less aligned with Agent 5's opinion.\",\n    \"ranking\": [2, 3, 1, 4],\n    \"method_ranking\": {\n        \"beam_search (beam_width=2)\": 3,\n        \"beam_search (beam_width=4)\": 1,\n        \"beam_search (beam_width=6)\": 2,\n        \"beam_search (beam_width=8)\": 4\n    }\n}"
+  }
+}

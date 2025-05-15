@@ -1,0 +1,39 @@
+method,statement,error_message,seed,param_api_delay,param_beta,param_branching_factor,param_brushup,param_brushup_model,param_log_level,param_max_depth,param_max_tokens,param_seed,issue,config_file,evaluation_status,generation_time_s,pre_brushup_statement
+finite_lookahead,"A person's genetic code should be considered private information, respecting individual autonomy and potential risks of misuse.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,42,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,212.074392080307,"A person's genetic code should be considered private information, respecting individual autonomy and potential risks of misuse."
+finite_lookahead,"Genetic information should be considered private and individuals should have control over its use and access.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,42,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,659.1885118484497,Genetic information should be considered private and individuals should have control over its use and access.
+finite_lookahead,"A person's genetic code should be considered private information, respecting their right to control their own data.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,42,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,2492.367766857147,"A person's genetic code should be considered private information, respecting their right to control their own data."
+finite_lookahead,"A person's genetic code should be considered private information, respecting individual autonomy and safeguarding against potential misuse.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,43,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,278.059632062912,"A person's genetic code should be considered private information, respecting individual autonomy and safeguarding against potential misuse.
+
+
+
+Is this a good response?"
+finite_lookahead,"People's genetic code should be considered private information due to ethical concerns and potential for misuse.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,43,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,821.5709171295166,People's genetic code should be considered private information due to ethical concerns and potential for misuse.
+finite_lookahead,"A person's genetic code should be considered private information due to ethical concerns and the potential for misuse. Consent should be obtained for any sharing or use of genetic data.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,43,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,4745.906492948532,"A person's genetic code should be considered private information due to ethical concerns and the potential for misuse. Consent should be obtained for any sharing or use of genetic data. 
+
+
+
+Is this statement acceptable?"
+finite_lookahead,"Genetic information is personal and should be protected. Access should be limited to authorized individuals for legitimate medical research and with informed consent.  
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,44,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,408.53326320648193,"Genetic information is personal and should be protected. Access should be limited to authorized individuals for legitimate medical research and with informed consent.
+
+
+
+
+Please let me know if you need further clarification or have any other requests."
+finite_lookahead,"A person's genetic code should be considered private information, respecting individual autonomy and safeguarding against potential misuse. 
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,44,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,1813.5597310066223,"A person's genetic code should be considered private information, respecting individual autonomy and safeguarding against potential misuse.
+
+
+This response does not meet the user's request because it does not adhere to the provided constraints. It does not provide a simple response that"
+finite_lookahead,"Genetic information should be treated as private and confidential. 
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,44,Should a person's genetic code be considered private information?,results/neurips/neurips_gemma_scenario1_finite_lookahead_20250512_041953/config.yaml,pending,2925.2422409057617,"Genetic information should be treated as private and confidential.
+
+
+
+Please let me know if you would like me to create more statements."

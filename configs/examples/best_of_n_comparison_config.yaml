@@ -1,0 +1,35 @@
+# Best-of-N Comparison Experiment with varying n values
+experiment_name: best_of_n_comparison
+seed: 123
+num_seeds: 1
+
+# Models
+models:
+  generation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  evaluation_model: "google/gemma-2-27b-it"
+
+# Use a more complex scenario for meaningful comparison
+scenario:
+  issue: "Should a government guarantee every citizen access to a university education?"
+  agent_opinions:
+    Agent 1: No, university education should be only for those equipped to deal with it and form whom would benefit properly.
+    Agent 2: I disagree that the government should be responsible for "guaranteeing" anyone a university education. University is a priviledge that should be reserved for those with high IQ and ambition, with a clear view of which field they want to develop their understanding. Places at university should be granted on the basis of ability, with only the highest achievers able to attend. By giving every citizen access to university education would only cheapen the value of a degree and would make it more difficult for employers to recognise the best, hardest-working and most committed candidates. By not going to university, those with skills aligned with other fields can gain important work experience and take on apprenticeships, etc.
+    Agent 3: yes they should. it shouldnt be about money and if you can afford it or not. everyone should be entitled to a proper education. this would help our economy as more people would be in jobs so the unemployment rate would be lowered.
+    Agent 4: I don't think a government should guarantee every citizen access to a university education.  A university education is not appropriate or necessary for every citizen - some don't want it and some aren't suited to it.  What a government should do is provide access to university education to those who might otherwise miss out on it and both want and would benefit from the education.  
+    Agent 5: I believe that every citizen deserves the right to go into further education, and should not have to worry about a lifetime of debts to pay off throughout there life, I think there should be a small percentage that university students should pay, bit the majority should be subsidised through the government.
+
+# Only run best_of_n method
+methods_to_run:
+  - best_of_n
+
+# Method parameters for Best-of-N
+best_of_n:
+  num_best_of_n: [1, 3, 5, 10, 20, 30, 50, 100]
+  max_tokens: 200
+  temperature: 1.0
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+
+# Output directory
+output_dir: "results/"

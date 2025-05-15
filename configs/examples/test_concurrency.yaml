@@ -1,0 +1,55 @@
+# Test Config for Concurrent Execution
+experiment_name: test_concurrency
+seed: 42
+num_seeds: 2 # Run with two different seeds
+
+# Concurrency Settings
+concurrent_execution: true             # Enable concurrent execution
+max_concurrent_methods: 8              # Use 8 parallel threads (Mac has 12 cores)
+api_rate_limit: 10                     # 10 API requests per second limit
+
+# Models
+models:
+  generation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  evaluation_models:
+    - "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+    - "google/gemma-2-9b-it"
+
+# Simple test scenario
+scenario:
+  issue: "Should we build a new bridge across the river?"
+  agent_opinions:
+    Agent 1: "I support building a new bridge across the river to reduce traffic congestion, but we should ensure it includes dedicated lanes for public transportation and pedestrian walkways."
+    Agent 2: "I'm open to a new bridge if we use sustainable materials, minimize environmental impact, and implement reasonable tolls to offset construction costs."
+
+# Only run the predefined method
+methods_to_run:
+  - predefined
+  - best_of_n
+  - habermas_machine
+  
+
+habermas_machine:
+  num_candidates: [2,5] # Number of statements to generate and rank
+  num_rounds: 1
+  num_retries: 2
+
+
+# Method parameters for Best-of-N
+best_of_n:
+  n: [1,5,10] # Number of candidates to generate and compare
+  max_tokens: 150 # Max length for each candidate statement
+  temperature: 1 # Sampling temperature for diversity in candidates
+  beta: 1.0 # Reward scaling factor
+  log_level: WARNING # Control logging level (e.g., DEBUG, INFO, WARNING)
+  api_delay: 0.5 # Delay between API calls (seconds) to avoid rate limits
+
+
+# Method parameters for Predefined
+predefined:
+  # The statement to be evaluated
+  predefined_statement: "A new bridge focusing on sustainability and public access should be considered, funded partially by tolls."
+  # Add any other parameters if needed, though this method doesn't use them for generation
+
+# Output directory
+output_dir: "results/" 

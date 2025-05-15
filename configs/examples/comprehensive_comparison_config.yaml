@@ -1,0 +1,79 @@
+# Comprehensive Config for Comparing All Deliberation Methods
+experiment_name: deliberation_methods_comparison
+seed: 42
+num_seeds: 1  # Run with multiple seeds for statistical significance
+
+# Models - using the same models for all methods
+models:
+  generation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  evaluation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+
+# Use a more complex scenario for meaningful comparison
+scenario:
+  issue: "Should we be using new gene editing techniques to prevent children being born with genetic disorders?"
+  agent_opinions:
+    Agent 1: I was a little unsure on this, it really depends on how the techniques are carried out and also what negative effects it could have when the child is born. There would be a lot of factors to look into, especially if the technique could cause other problems in the future.
+    Agent 2: I really do not believe that we should be messing with the fabrics of our core beings in out genes. i think this could lead to potentially harmful things happening and being created. I do understand that genetic disorders are a sad thing, nut the are part of natural evolution and we should not be messing with it.
+    Agent 3: Gene editing techniques give us the option to reduce the pain caused to families by genetic diseases. Families who know they carry a genetic disease could be given the chance to have a baby free from that. It would mean that parents would have a choice to prevent their child being born with a genetic disease and this is an option that could change the world.
+    Agent 4: Gene editing, while a great advancement in food and animals, shouldn't be used by human because that could lead to the population being skewed. There are countries where a certain sex is preferred and that will only harm the population as they age--there would be an imbalance. This imbalance could have negative repurcutions when it comes to resource allocation. Another negative side of gene editing is that it could result in 'designer babies' whereby people prefer a certain feature over the genetically possible variations. I think screening for genetic disorders is the better option as it disallows vanity. 
+    Agent 5: yes i think we should,it would ensure that all children are born healthy and can lead normal healthy happy lives  and would also stop the worry and stress parents face when their child is born with a genetic disorder,it would also save money on the nhs treating children with disorders
+
+# Run all methods
+methods_to_run:
+  - best_of_n
+  - beam_search
+  - finite_lookahead
+  - mcts
+  - habermas_machine
+  - predefined
+
+best_of_n:
+  n: [4, 10]
+  max_tokens: 200
+  temperature: 1.0
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+
+beam_search:
+  beam_width: 3
+  max_tokens: 200
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+  max_sampling_attempts: 10
+  brushup: true
+  brushup_model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+
+finite_lookahead:
+  branching_factor: 2
+  max_depth: 2
+  max_tokens: 200
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+  brushup: true
+  brushup_model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+
+mcts:
+  num_simulations: 10
+  exploration_constant: 1.414
+  max_tokens: 200
+  log_level: INFO
+  api_delay: 0.5
+  expansion_sample_width: 2
+  max_sampling_attempts: 10
+  rollout_depth: 10
+  brushup: true
+  brushup_model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+
+habermas_machine:
+  num_candidates: 4
+  num_rounds: 1
+  num_retries: 2
+
+predefined:
+  predefined_statement: "Gene editing techniques have the potential to reduce the pain caused to families by genetic diseases. The pain, especially for families who know they carry a genetic disease, can be substantial. We need to be aware of the potential negative consequences, such as the increase in designer babies, and the future effects that may arise. Therefore, gene editing should be looked into more deeply, before making a final decision."
+
+# Output directory
+output_dir: "results/"

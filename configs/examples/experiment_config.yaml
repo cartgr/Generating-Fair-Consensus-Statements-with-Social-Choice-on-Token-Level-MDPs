@@ -1,0 +1,69 @@
+# Experiment Setup
+experiment_name: bridge_comparison_v1
+seed: 42
+num_seeds: 1 # You might loop over seeds in your main script
+
+# Concurrency Settings
+concurrent_execution: true  # Enable or disable concurrent method execution
+max_concurrent_methods: 4   # Maximum number of methods to run concurrently
+api_rate_limit: 5           # Maximum API requests per second
+
+# Models
+models:
+  # generation_model: "google/gemma-2-27b-it"
+  # generation_model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+  generation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  # generation_model: "google/gemma-2b-it"
+  # evaluation_model: "google/gemma-2-27b-it"
+  # evaluation_model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+  evaluation_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+
+# Scenario
+scenario:
+  issue: "Should we build a new bridge across the river?"
+  agent_opinions:
+    Agent 1: "I support building a new bridge across the river to reduce traffic congestion, but we should ensure it includes dedicated lanes for public transportation and pedestrian walkways."
+    Agent 2: "I'm open to a new bridge if we use sustainable materials, minimize environmental impact, and implement reasonable tolls to offset construction costs."
+    Agent 3: "I strongly believe that we should make crossing the river possible, but I would rather a ferry service becuase it creates more jobs and won't take as long to get running."
+    # Agent 4: "We should not build a new bridge across the river."
+    # Agent 5: "We should build a new bridge across the river."
+
+# Methods to run
+methods_to_run:
+  # - mcts
+  # - beam_search
+  - finite_lookahead
+  # - best_of_n
+  # - zero_shot
+  - habermas_machine
+
+# Method Parameters (nested under method names)
+mcts:
+  exploration_constant: 1.414
+  num_simulations: 10
+  max_depth: 10
+  rollout_policy: "prompted consensus"
+  expansion_threshold: 10
+
+beam_search:
+  beam_width: 3
+  max_steps: 10
+
+finite_lookahead:
+  branching_factor: 2
+  max_depth: 3
+  max_tokens: 500
+  beta: 1.0
+
+best_of_n:
+  num_best_of_n: 3
+
+habermas_machine:
+  num_candidates: 3 # Number of statements to generate and rank
+  num_rounds: [1,2,3]
+  num_retries: 2
+  
+zero_shot: {}
+
+# Output directory
+output_dir: "results/" # Base directory 

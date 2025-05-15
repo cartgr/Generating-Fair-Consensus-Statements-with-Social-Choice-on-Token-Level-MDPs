@@ -1,0 +1,71 @@
+experiment_name: scenario_1_full_comparison
+seed: 42
+num_seeds: 3
+models:
+  generation_model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+  evaluation_model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+scenario:
+  issue: Are we living in a golden age of democracy?
+  agent_opinions:
+    Agent 1: No, I think the golden age of democracy is long gone. I think a system
+      where the first past the post wins is not working and we need to move to a model
+      of proportional representation which would give more people the feeling that
+      their voices were being heard. On the subject of voices, I'm strongly of the
+      opinion that we have beome a society where the loud voices of minority groups
+      are able to impose their views on the rest of the population which to me is
+      no democracy at all.
+    Agent 2: Worldwide democracy is more present than it's ever been in history. So
+      yes, compared to previous ages in history I believe we are. Although that's
+      not to say we can't improve - many countries still don't operate democratically,
+      and in the ones that do, corruption is rife.
+    Agent 3: Yes, we are living in a golden age of democracy as democracy is of the
+      people.
+    Agent 4: Not at all. The notion of democracy is being used for personal gains
+      of those in government, and the system is manipulated. Around the world there
+      is a considerable amount of oppression and lack of democractic values.
+    Agent 5: Comapred to some parts of the world such as Russia and China which are
+      actively regressing and reverting back to archaic ways of controlling their
+      people, most Western countries are living through comparitively decent times,
+      although problems still exist.
+methods_to_run:
+- best_of_n
+- finite_lookahead
+- habermas_machine
+- predefined
+- beam_search
+best_of_n:
+  n: 4
+  max_tokens: 200
+  temperature: 1.0
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+beam_search:
+  beam_width: 4
+  max_tokens: 200
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+  max_sampling_attempts: 10
+  brushup: true
+  brushup_model: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+finite_lookahead:
+  branching_factor: 2
+  max_depth: 4
+  max_tokens: 200
+  beta: 1.0
+  log_level: INFO
+  api_delay: 0.5
+  brushup: true
+  brushup_model: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+habermas_machine:
+  num_candidates: 4
+  num_rounds: 1
+  num_retries: 2
+predefined:
+  predefined_statement: Although in the past we've had high hopes of a better world
+    after the horrors of WWII and the fall of the Iron Curtain, democracy is in danger
+    worldwide and may never reach its full potential. The Western world has poor democratic
+    values, and even though democracy is spreading worldwide it is being overshadowed
+    by the loud voices of minority groups.
+output_dir: results/

@@ -1,0 +1,162 @@
+{
+  "Agent 1": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 8,
+      "best_of_n (n=3.0)": 7,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 6,
+      "best_of_n (n=5.0)": 12,
+      "best_of_n (n=10.0)": 11,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 1,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 3,
+      "best_of_n (n=20.0)": 10,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 2,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 4,
+      "best_of_n (n=50.0)": 9
+    },
+    "reasoning": "Agent 1 opposes the ban on alcohol and cigarettes in public places, emphasizing personal responsibility, the economic impact on businesses, and the importance of responsible consumption. Statements that align with these points are ranked higher. Statement 6 is the most aligned as it covers personal freedom, economic impact, and responsible consumption. Statements that focus less on these aspects or are vague about the economic impact are ranked lower.",
+    "raw_ranking": [
+      6,
+      10,
+      7,
+      11,
+      9,
+      3,
+      2,
+      1,
+      12,
+      5,
+      8,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 1 opposes the ban on alcohol and cigarettes in public places, emphasizing personal responsibility, the economic impact on businesses, and the importance of responsible consumption. Statements that align with these points are ranked higher. Statement 6 is the most aligned as it covers personal freedom, economic impact, and responsible consumption. Statements that focus less on these aspects or are vague about the economic impact are ranked lower.\",\n    \"ranking\": [6, 10, 7, 11, 9, 3, 2, 1, 12, 5, 8, 4],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 8,\n        \"best_of_n (n=3.0)\": 7,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 6,\n        \"best_of_n (n=5.0)\": 12,\n        \"best_of_n (n=10.0)\": 11,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 1,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 3,\n        \"best_of_n (n=20.0)\": 10,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 5,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 2,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 4,\n        \"best_of_n (n=50.0)\": 9\n    }\n}"
+  },
+  "Agent 2": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 7,
+      "best_of_n (n=3.0)": 1,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 8,
+      "best_of_n (n=5.0)": 12,
+      "best_of_n (n=10.0)": 11,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 3,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 2,
+      "best_of_n (n=20.0)": 10,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 9,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 4,
+      "best_of_n (n=50.0)": 6
+    },
+    "reasoning": "Agent 2 opposes a ban on alcohol and cigarettes in public places and prefers targeted measures against antisocial behavior. Statements that emphasize responsible consumption and targeted measures align best with Agent 2's opinion. Statements that focus on the ineffectiveness of a ban without mentioning antisocial behavior or responsible consumption are less aligned.",
+    "raw_ranking": [
+      2,
+      7,
+      6,
+      11,
+      9,
+      12,
+      1,
+      3,
+      10,
+      8,
+      5,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 2 opposes a ban on alcohol and cigarettes in public places and prefers targeted measures against antisocial behavior. Statements that emphasize responsible consumption and targeted measures align best with Agent 2's opinion. Statements that focus on the ineffectiveness of a ban without mentioning antisocial behavior or responsible consumption are less aligned.\",\n    \"ranking\": [2, 7, 6, 11, 9, 12, 1, 3, 10, 8, 5, 4],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 7,\n        \"best_of_n (n=3.0)\": 1,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 8,\n        \"best_of_n (n=5.0)\": 12,\n        \"best_of_n (n=10.0)\": 11,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 3,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 2,\n        \"best_of_n (n=20.0)\": 10,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 5,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 9,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 4,\n        \"best_of_n (n=50.0)\": 6\n    }\n}"
+  },
+  "Agent 3": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 11,
+      "best_of_n (n=3.0)": 6,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 5,
+      "best_of_n (n=5.0)": 12,
+      "best_of_n (n=10.0)": 2,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 1,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 7,
+      "best_of_n (n=20.0)": 3,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 9,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 4,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 10,
+      "best_of_n (n=50.0)": 8
+    },
+    "reasoning": "Agent 3 is against banning alcohol and cigarettes in public places due to concerns about driving sales underground and increasing crime, similar to the Prohibition era. The agent supports responsible consumption and age restrictions. Statements that emphasize the ineffectiveness of bans, potential for increased crime, and the importance of responsible consumption align best with Agent 3's views.",
+    "raw_ranking": [
+      6,
+      5,
+      8,
+      10,
+      3,
+      2,
+      7,
+      12,
+      9,
+      11,
+      1,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 3 is against banning alcohol and cigarettes in public places due to concerns about driving sales underground and increasing crime, similar to the Prohibition era. The agent supports responsible consumption and age restrictions. Statements that emphasize the ineffectiveness of bans, potential for increased crime, and the importance of responsible consumption align best with Agent 3's views.\",\n    \"ranking\": [6, 5, 8, 10, 3, 2, 7, 12, 9, 11, 1, 4],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 11,\n        \"best_of_n (n=3.0)\": 6,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 5,\n        \"best_of_n (n=5.0)\": 12,\n        \"best_of_n (n=10.0)\": 2,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 1,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 7,\n        \"best_of_n (n=20.0)\": 3,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 9,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 4,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 10,\n        \"best_of_n (n=50.0)\": 8\n    }\n}"
+  },
+  "Agent 4": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 8,
+      "best_of_n (n=3.0)": 7,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 6,
+      "best_of_n (n=5.0)": 12,
+      "best_of_n (n=10.0)": 11,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 4,
+      "best_of_n (n=20.0)": 10,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 3,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 2,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 1,
+      "best_of_n (n=50.0)": 9
+    },
+    "reasoning": "Agent 4 is conflicted about banning alcohol but supports banning cigarettes due to their harmful effects. They are concerned about becoming a nanny state and emphasize personal responsibility and learning boundaries. Statements that align with these views, particularly those that oppose outright bans and emphasize personal responsibility, are ranked higher.",
+    "raw_ranking": [
+      11,
+      10,
+      9,
+      7,
+      6,
+      3,
+      2,
+      1,
+      12,
+      8,
+      5,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 4 is conflicted about banning alcohol but supports banning cigarettes due to their harmful effects. They are concerned about becoming a nanny state and emphasize personal responsibility and learning boundaries. Statements that align with these views, particularly those that oppose outright bans and emphasize personal responsibility, are ranked higher.\",\n    \"ranking\": [11, 10, 9, 7, 6, 3, 2, 1, 12, 8, 5, 4],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 8,\n        \"best_of_n (n=3.0)\": 7,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 6,\n        \"best_of_n (n=5.0)\": 12,\n        \"best_of_n (n=10.0)\": 11,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 5,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 4,\n        \"best_of_n (n=20.0)\": 10,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 3,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 2,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 1,\n        \"best_of_n (n=50.0)\": 9\n    }\n}"
+  },
+  "Agent 5": {
+    "method_ranking": {
+      "best_of_n (n=1.0)": 6,
+      "best_of_n (n=3.0)": 7,
+      "habermas_machine (num_candidates=1.0, num_rounds=1.0)": 3,
+      "best_of_n (n=5.0)": 12,
+      "best_of_n (n=10.0)": 10,
+      "habermas_machine (num_candidates=3.0, num_rounds=1.0)": 1,
+      "habermas_machine (num_candidates=5.0, num_rounds=1.0)": 2,
+      "best_of_n (n=20.0)": 11,
+      "habermas_machine (num_candidates=10.0, num_rounds=1.0)": 5,
+      "habermas_machine (num_candidates=20.0, num_rounds=1.0)": 4,
+      "habermas_machine (num_candidates=50.0, num_rounds=1.0)": 9,
+      "best_of_n (n=50.0)": 8
+    },
+    "reasoning": "Agent 5 believes that alcohol and cigarettes should not be banned in public places, emphasizing responsible consumption and age verification. Statements that align with these views and address the importance of personal freedom and responsible use are ranked higher. Statements that focus solely on the ineffectiveness of bans without mentioning responsible consumption or age restrictions are ranked lower.",
+    "raw_ranking": [
+      6,
+      7,
+      3,
+      10,
+      9,
+      1,
+      2,
+      12,
+      11,
+      5,
+      8,
+      4
+    ],
+    "raw_response": "{\n    \"reasoning\": \"Agent 5 believes that alcohol and cigarettes should not be banned in public places, emphasizing responsible consumption and age verification. Statements that align with these views and address the importance of personal freedom and responsible use are ranked higher. Statements that focus solely on the ineffectiveness of bans without mentioning responsible consumption or age restrictions are ranked lower.\",\n    \"ranking\": [6, 7, 3, 10, 9, 1, 2, 12, 11, 5, 8, 4],\n    \"method_ranking\": {\n        \"best_of_n (n=1.0)\": 6,\n        \"best_of_n (n=3.0)\": 7,\n        \"habermas_machine (num_candidates=1.0, num_rounds=1.0)\": 3,\n        \"best_of_n (n=5.0)\": 12,\n        \"best_of_n (n=10.0)\": 10,\n        \"habermas_machine (num_candidates=3.0, num_rounds=1.0)\": 1,\n        \"habermas_machine (num_candidates=5.0, num_rounds=1.0)\": 2,\n        \"best_of_n (n=20.0)\": 11,\n        \"habermas_machine (num_candidates=10.0, num_rounds=1.0)\": 5,\n        \"habermas_machine (num_candidates=20.0, num_rounds=1.0)\": 4,\n        \"habermas_machine (num_candidates=50.0, num_rounds=1.0)\": 9,\n        \"best_of_n (n=50.0)\": 8\n    }\n}"
+  }
+}

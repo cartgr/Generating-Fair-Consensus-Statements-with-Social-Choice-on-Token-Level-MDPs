@@ -1,0 +1,59 @@
+experiment_name: neurips_gemma_scenario2_habermas_only
+seed: 42
+num_seeds: 3
+concurrent_execution: true
+max_concurrent_methods: 5
+api_rate_limit: 60
+models:
+  generation_model: google/gemma-2-9b-it
+  evaluation_models:
+  - google/gemma-2-9b-it
+  - meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+scenario:
+  issue: Should we increase taxes to fund a more comprehensive benefits system?
+  agent_opinions:
+    Agent 1: Yes taxes should be increased in order to fund a more comprehensive benefits
+      system because this is the best means to create a safe, secure and productive
+      society in the long term. Especially in recent times, with the ongoing challenges
+      countries across the world are facing, it would be tantamount to negligence
+      to either keep benefits in their current form or reduce them.  Comprehensive
+      benefits systems that will protect people in all kinds of situations are one
+      of the hallmarks of a successful country which shows that it cares actively
+      for its citizens and that everyone is invested in that care.
+    Agent 2: "I think we need a better benefits system than the one we already have.\
+      \  I think it needs a complete overhaul, it is difficult for those that are\
+      \ most vulnerable and at risk to access the support they need, and what is available\
+      \ is just not sufficient.  Take carers for example, they have to take care of\
+      \ someone for a minimum of 35 hours per week, but only receive the equivalent\
+      \ of \xA31.99 to pay for this from the Government. Increasing taxes would allow\
+      \ reform and to support people like carers better."
+    Agent 3: I believe the benefits system is inadequate, recent studies by JRF and
+      similar show this. I thus think it should be more comprehensive as there are
+      anomolies between the help available through different benefits such as income
+      and contribution based.  Rates should be increased across the board. Some tax
+      rises to fund this would be justified, but there is no point adding to the tax
+      burden of those on the lowest incomes who may be in receipt of top up benefit
+      as it is taking away what is already given, so I would propose taxing the well
+      off more instead.
+    Agent 4: I think it is a good idea as we could improve the wellfare of many people.
+      I think the rich should also be taxed more to help other people. I like the
+      idea of everyone having better access to the things they need such as medical
+      care. Some things are to expensive for people on lower incomes to afford.
+    Agent 5: I believe that the tax system should be revised, meaning that the highest
+      earners in this country will pay a larger amount of tax. I also believe that
+      the level of tax that corporations pay should be increased. In the last decade,
+      the gap between the lowest and highest earners has only been increasing. On
+      top of this, vicious cuts to benefits and services have hit the least well off
+      in society very hard.
+methods_to_run:
+- habermas_machine
+habermas_machine:
+  num_candidates:
+  - 2
+  - 5
+  - 10
+  num_rounds:
+  - 1
+  - 2
+  num_retries: 2
+output_dir: results/neurips/
