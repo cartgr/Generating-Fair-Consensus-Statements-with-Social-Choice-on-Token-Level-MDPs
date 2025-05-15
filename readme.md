@@ -35,7 +35,7 @@ This research explores methods for generating consensus statements that fairly r
 
 1. Clone this repository:
 ```bash
-git clone [<repository-url>](https://github.com/cartgr/Generating-Fair-Consensus-Statements-with-Social-Choice-on-Token-Level-MDPs.git)
+git clone https://github.com/cartgr/Generating-Fair-Consensus-Statements-with-Social-Choice-on-Token-Level-MDPs.git
 cd Generating Fair Consensus Statements with Social Choice on Token-Level MDPs
 ```
 
