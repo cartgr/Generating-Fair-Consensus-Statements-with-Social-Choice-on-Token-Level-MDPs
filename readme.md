@@ -158,7 +158,6 @@ The evaluation system calculates multiple types of metrics:
 
 1. **Per-agent Utilities**:
    - Average Log Probability (which can be transformed to EPPL): How likely each agent would generate the statement
-   - Cosine Similarity: Vector similarity between statement and agent's opinion
    - LLM Judge Score (optional): 1-5 score assessing how well the statement represents the opinion
 
 2. **Welfare Metrics**:
@@ -166,7 +165,7 @@ The evaluation system calculates multiple types of metrics:
    - Utilitarian Welfare: The sum of all agents' utilities (maximum total utility)
    - Log Nash Welfare: The sum of log utilities (balances fairness and efficiency)
 
-Each welfare metric is calculated for each utility type (logprob, cosine similarity, and LLM judge).
+Each welfare metric is calculated for each utility type (logprob and LLM judge).
 
 ### Post-hoc Evaluation
 
