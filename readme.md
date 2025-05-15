@@ -29,7 +29,6 @@ This research explores methods for generating consensus statements that fairly r
 - **Best-of-N**: Generates multiple candidate statements and selects the best one
 - **Beam Search**: Maintains multiple candidate statements and expands promising ones
 - **Finite Lookahead**: Examines a fixed number of future steps to optimize decisions
-- **MCTS (Monte Carlo Tree Search)**: Uses tree search with exploration vs. exploitation balance
 - **Habermas Machine**: Implements AI-mediated deliberation among participants to find consensus
 
 ## Setup and Installation
