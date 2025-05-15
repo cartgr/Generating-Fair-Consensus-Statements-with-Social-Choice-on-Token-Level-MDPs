@@ -193,9 +193,9 @@ python post_hoc_evaluate.py --results-dir results/your_experiment_directory --em
 
 Experiment results are saved in the `results/` directory, organized by experiment name and timestamp.
 
-The NeurIPS experiments specifically output to the `results/neurips/` directory, with subdirectories organized as:
+The NeurIPS experiments specifically output to the `results/appendix/` and `results/main_body` directories. The results for the experiments in the appendix are organized as:
 ```
-results/neurips/
+results/appendix/
 ├── neurips_gemma_scenario1_beam_search_20250511_222741/
 │   ├── config.yaml                # Configuration used
 │   ├── results.csv                # Raw results data
