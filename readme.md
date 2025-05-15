@@ -36,7 +36,7 @@ This research explores methods for generating consensus statements that fairly r
 1. Clone this repository:
 ```bash
 git clone <repository-url>
-cd NeurIPS25
+cd Generating Fair Consensus Statements with Social Choice on Token-Level MDPs
 ```
 
 2. Create and activate a virtual environment:
