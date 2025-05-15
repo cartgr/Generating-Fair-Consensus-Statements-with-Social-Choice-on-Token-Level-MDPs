@@ -91,6 +91,8 @@ python run_neurips_experiments.py --method habermas_vs_best_of_n
 python run_neurips_experiments.py --model gemma --scenario 2 --method beam_search
 ```
 
+Configuration files for the results in the main body can be found in `configs/main_body`
+
 ### Custom Experiments
 
 For running custom experiments, use the primary experiment runners:
