@@ -1,5 +1,5 @@
 # NeurIPS Experiment: Llama - Scenario 1 - Finite Lookahead
-experiment_name: neurips_llama_scenario1_finite_lookahead
+experiment_name: aamas_llama_scenario1_finite_lookahead
 seed: 42
 num_seeds: 3
 
@@ -40,4 +40,4 @@ finite_lookahead:
   brushup_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"  # Model to use for brushup (same as generation model)
 
 # Output directory
-output_dir: "results/neurips/"
+output_dir: "results/aamas/"

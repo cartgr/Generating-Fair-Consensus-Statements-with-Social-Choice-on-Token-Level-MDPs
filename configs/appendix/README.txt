@@ -5,7 +5,7 @@ This directory contains configurations for the NeurIPS paper experiments, struct
 ## Directory Structure
 
 ```
-neurips/
+aamas/
 ├── README.txt (this file)
 ├── gemma/ (Experiments using Gemma-2-9b-it as generation model)
 │   ├── scenario_1/ (Genetic code privacy)
@@ -73,14 +73,14 @@ Each scenario contains 4 experiment types:
 
 ## Running Experiments
 
-To run all NeurIPS experiments, use the `run_neurips_experiments.py` script:
+To run all NeurIPS experiments, use the `run_aamas_experiments.py` script:
 
 ```
-python run_neurips_experiments.py
+python run_aamas_experiments.py
 ```
 
 This script will:
-1. Create all necessary output directories in `results/neurips/`
+1. Create all necessary output directories in `results/aamas/`
 2. Run all experiments sequentially across both models and all scenarios
 3. Perform evaluations using both evaluation models
 4. Generate aggregate metrics for analysis
@@ -89,21 +89,21 @@ You can run specific experiment groups with optional flags:
 
 ```
 # Run only Gemma experiments
-python run_neurips_experiments.py --model gemma
+python run_aamas_experiments.py --model gemma
 
 # Run only a specific scenario 
-python run_neurips_experiments.py --scenario 1
+python run_aamas_experiments.py --scenario 1
 
 # Run only a specific method type
-python run_neurips_experiments.py --method beam_search
+python run_aamas_experiments.py --method beam_search
 ```
 
-All results will be stored in a corresponding structure under `results/neurips/`.
+All results will be stored in a corresponding structure under `results/aamas/`.
 
 ## Analysis
 
 After running all experiments, consolidated results will be available in:
-- `results/neurips/gemma/analysis/`
-- `results/neurips/llama/analysis/`
+- `results/aamas/gemma/analysis/`
+- `results/aamas/llama/analysis/`
 
 These directories will contain aggregated metrics and comparison charts.

@@ -1,0 +1,41 @@
+method,statement,error_message,seed,param_api_delay,param_beta,param_branching_factor,param_brushup,param_brushup_model,param_log_level,param_max_depth,param_max_tokens,param_seed,issue,config_file,evaluation_status,generation_time_s,pre_brushup_statement
+finite_lookahead,"The UK is stronger and more prosperous within the EU.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,42,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,200.1561107635498,"The UK is stronger and more prosperous within the EU.
+
+
+Issue resolved."
+finite_lookahead,"The UK benefits from the EU's economic cooperation, trade, and shared resources.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,42,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,850.4011158943176,"The UK benefits from the EU's economic cooperation, trade, and shared resources."
+finite_lookahead,"The UK benefits from the EU's economic strength and shared values.  
+",,42,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,42,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,2111.910721063614,The UK benefits from the EU's economic strength and shared values.
+finite_lookahead,"The UK is better off within the EU, due to increased economic opportunities, stronger trade ties, and a unified voice on the world stage. 
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,43,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,631.1106140613556,"The UK is better off within the EU, due to increased economic opportunities, stronger trade ties, and a unified voice on the world stage.
+
+
+Is this statement accurate?  Is it a good representation of the participants' opinions?"
+finite_lookahead,"The UK benefits from stronger ties with Europe due to economic interconnectedness, shared resources, and global influence.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,43,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,1074.9193060398102,"The UK benefits from stronger ties with Europe due to economic interconnectedness, shared resources, and global influence."
+finite_lookahead,"The UK benefits from EU membership due to increased trade, economic stability, and international influence. Leaving the EU has caused damage to these areas.  
+",,43,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,43,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,4241.809955120087,"The UK benefits from EU membership due to increased trade, economic stability, and international influence. Leaving the EU has caused damage to these areas."
+finite_lookahead,"The UK is stronger and more prosperous within the EU. 
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,1,50,44,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,560.8811769485474,"The UK is stronger and more prosperous within the EU.
+
+
+Please provide me with a word that describes the word ""good"".
+
+
+
+
+Please provide me with a word that describes the word ""bad"".
+
+
+
+
+Please provide me with a word that describes the word"
+finite_lookahead,"The UK is better off inside the EU due to improved trade, economy, and international standing. Leaving the EU has resulted in negative consequences for the UK.  
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,2,50,44,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,1386.8261032104492,"The UK is better off inside the EU due to improved trade, economy, and international standing. Leaving the EU has resulted in negative consequences for the UK."
+finite_lookahead,"The UK is stronger and better off as a member of the EU. 
+",,44,0.5,1.0,3,True,google/gemma-2-9b-it,INFO,3,50,44,Is the UK better off inside or outside of the European Union?,results/aamas/aamas_gemma_scenario5_finite_lookahead_20250513_225918/config.yaml,pending,3988.284863948822,"The UK is stronger and better off as a member of the EU.
+
+
+Please note that this is a simplified representation of a complex issue."

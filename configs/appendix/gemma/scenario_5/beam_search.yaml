@@ -1,5 +1,5 @@
 # NeurIPS Experiment: Gemma - Scenario 5 - Beam Search
-experiment_name: neurips_gemma_scenario5_beam_search
+experiment_name: aamas_gemma_scenario5_beam_search
 seed: 42
 num_seeds: 3
 
@@ -41,4 +41,4 @@ beam_search:
   brushup_model: "google/gemma-2-9b-it"  # Model to use for brushup (same as generation model)
 
 # Output directory
-output_dir: "results/neurips/"
+output_dir: "results/aamas/"

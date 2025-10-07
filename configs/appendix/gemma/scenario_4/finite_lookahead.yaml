@@ -1,5 +1,5 @@
 # NeurIPS Experiment: Gemma - Scenario 4 - Finite Lookahead
-experiment_name: neurips_gemma_scenario4_finite_lookahead
+experiment_name: aamas_gemma_scenario4_finite_lookahead
 seed: 42
 num_seeds: 3
 
@@ -41,4 +41,4 @@ finite_lookahead:
   brushup_model: "google/gemma-2-9b-it"  # Model to use for brushup (same as generation model)
 
 # Output directory
-output_dir: "results/neurips/"
+output_dir: "results/aamas/"

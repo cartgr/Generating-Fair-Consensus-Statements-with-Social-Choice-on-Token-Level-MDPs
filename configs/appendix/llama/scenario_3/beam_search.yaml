@@ -1,5 +1,5 @@
 # NeurIPS Experiment: Llama - Scenario 3 - Beam Search
-experiment_name: neurips_llama_scenario3_beam_search
+experiment_name: aamas_llama_scenario3_beam_search
 seed: 42
 num_seeds: 3
 
@@ -41,4 +41,4 @@ beam_search:
   brushup_model: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"  # Model to use for brushup (same as generation model)
 
 # Output directory
-output_dir: "results/neurips/"
+output_dir: "results/aamas/"

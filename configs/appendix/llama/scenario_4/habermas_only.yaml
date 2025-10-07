@@ -1,5 +1,5 @@
 # NeurIPS Experiment: Llama - Scenario 4 - Habermas Machine Only
-experiment_name: neurips_llama_scenario4_habermas_only
+experiment_name: aamas_llama_scenario4_habermas_only
 seed: 42
 num_seeds: 3
 
@@ -36,4 +36,4 @@ habermas_machine:
   num_retries: 2
 
 # Output directory
-output_dir: "results/neurips/"
+output_dir: "results/aamas/"

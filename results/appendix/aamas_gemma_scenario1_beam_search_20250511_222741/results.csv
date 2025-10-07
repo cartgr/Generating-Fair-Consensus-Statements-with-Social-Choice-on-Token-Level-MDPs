@@ -1,0 +1,36 @@
+method,statement,error_message,seed,param_api_delay,param_beam_width,param_beta,param_brushup,param_brushup_model,param_log_level,param_max_sampling_attempts,param_max_tokens,param_seed,issue,config_file,evaluation_status,generation_time_s,pre_brushup_statement
+beam_search,"A person's genetic code should be treated as private information, with access limited to specific situations such as medical research with informed consent.  
+",,42,0.5,2,1.0,True,google/gemma-2-9b-it,INFO,8,50,42,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,1054.524577140808,"A person's genetic code should be treated as private information, with access limited to specific situations such as medical research with informed consent.  
+
+
+Please let me know if you have any other tasks for me!
+
+
+
+I'm ready for more!"
+beam_search,"People should have control over their genetic data.  It's personal information and should be treated with respect.  
+",,42,0.5,4,1.0,True,google/gemma-2-9b-it,INFO,8,50,42,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,3009.0240609645844,People should have control over their genetic data.  It's personal information and should be treated with respect.
+beam_search,"A person's genetic code should be considered private information.  
+",,42,0.5,6,1.0,True,google/gemma-2-9b-it,INFO,8,50,42,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,5231.06361579895,A person's genetic code should be considered private information.
+beam_search,"Genetic code should be considered private.  
+",,42,0.5,8,1.0,True,google/gemma-2-9b-it,INFO,8,50,42,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,6915.72713303566,Genetic code should be considered private.
+beam_search,"A person's genetic code should be treated as private information, with access granted only with explicit consent for specific purposes, such as medical research. 
+",,43,0.5,2,1.0,True,google/gemma-2-9b-it,INFO,8,50,43,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,1059.6439290046692,"A person's genetic code should be treated as private information, with access granted only with explicit consent for specific purposes, such as medical research.
+
+
+[/quote]  
+Let me know if you'd like me to continue the conversation or explore"
+beam_search,"Genetic information should be treated as private, respecting individual autonomy, while carefully considering potential benefits for research and medical advancements within ethical boundaries.  
+",,43,0.5,4,1.0,True,google/gemma-2-9b-it,INFO,8,50,43,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,2921.181830883026,"Genetic information should be treated as private, respecting individual autonomy. However, potential benefits for research and medical advancements should be carefully considered within ethical boundaries."
+beam_search,"Genetic code should be private. 
+",,43,0.5,6,1.0,True,google/gemma-2-9b-it,INFO,8,50,43,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,5276.982980966568,Genetic code should be private.
+beam_search,"Genetic code should be considered private.  
+",,43,0.5,8,1.0,True,google/gemma-2-9b-it,INFO,8,50,43,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,7307.616904020309,Genetic code should be considered private.
+beam_search,"Persons genetic code should be treated as private information, respecting their autonomy.  
+",,44,0.5,2,1.0,True,google/gemma-2-9b-it,INFO,8,50,44,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,938.0371401309967,"Persons genetic code should be treated as private information, respecting their autonomy"
+beam_search,"Genetic information is inherently personal, and privacy should be respected.  
+",,44,0.5,4,1.0,True,google/gemma-2-9b-it,INFO,8,50,44,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,2794.459729194641,"Genetic information is inherently personal, and privacy should be respected."
+beam_search,"A person's genetic code should be considered private information for ethical reasons, as it is deeply personal.  
+",,44,0.5,6,1.0,True,google/gemma-2-9b-it,INFO,8,50,44,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,4929.423123121262,"A person's genetic code should be considered private information for ethical reasons, as it is deeply personal."
+beam_search,"Genetic code should be considered private.  
+",,44,0.5,8,1.0,True,google/gemma-2-9b-it,INFO,8,50,44,Should a person's genetic code be considered private information?,results/aamas/aamas_gemma_scenario1_beam_search_20250511_222741/config.yaml,pending,6791.254203081131,Genetic code should be considered private.
