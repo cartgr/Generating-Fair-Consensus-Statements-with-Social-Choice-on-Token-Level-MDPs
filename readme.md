@@ -1,6 +1,6 @@
 # Generating Fair Consensus Statements with Social Choice on Token-Level MDPs
 
-This repository contains the code and experiments for the paper "Generating Fair Consensus Statements with Social Choice on Token-Level MDPs" submitted to NeurIPS 2025.
+This repository contains the code and experiments for the paper "Generating Fair Consensus Statements with Social Choice on Token-Level MDPs" submitted to AAMAS 2026.
 
 ## Table of Contents
 - [Generating Fair Consensus Statements with Social Choice on Token-Level MDPs](#generating-fair-consensus-statements-with-social-choice-on-token-level-mdps)
