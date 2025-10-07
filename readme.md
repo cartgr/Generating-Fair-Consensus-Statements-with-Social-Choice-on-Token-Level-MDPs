@@ -9,7 +9,7 @@ This repository contains the code and experiments for the paper "Generating Fair
   - [Methods Implemented](#methods-implemented)
   - [Setup and Installation](#setup-and-installation)
   - [Running Experiments](#running-experiments)
-    - [NeurIPS Experiments](#neurips-experiments)
+    - [AAMAS Experiments](#aamas-experiments)
     - [Custom Experiments](#custom-experiments)
     - [Concurrent Execution](#concurrent-execution)
     - [Running Multiple Seeds](#running-multiple-seeds)
@@ -62,12 +62,12 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ## Running Experiments
 
-### NeurIPS Experiments
+### AAMAS Experiments
 
-The repository includes a dedicated script for running the NeurIPS evaluation experiments:
+The repository includes a dedicated script for running the AAMAS evaluation experiments:
 
 ```bash
-python run_neurips_experiments.py
+python run_aamas_experiments.py
 ```
 
 This script will run all experiments configured in the `configs/appendix/` directory, which contains configurations for:
@@ -79,16 +79,16 @@ You can filter which experiments to run using command-line arguments:
 
 ```bash
 # Run only Gemma experiments
-python run_neurips_experiments.py --model gemma
+python run_aamas_experiments.py --model gemma
 
 # Run only experiments for scenario 3
-python run_neurips_experiments.py --scenario 3
+python run_aamas_experiments.py --scenario 3
 
 # Run only Habermas vs. Best-of-N experiments
-python run_neurips_experiments.py --method habermas_vs_best_of_n
+python run_aamas_experiments.py --method habermas_vs_best_of_n
 
 # Combine filters (e.g., Gemma experiments on scenario 2 with beam search)
-python run_neurips_experiments.py --model gemma --scenario 2 --method beam_search
+python run_aamas_experiments.py --model gemma --scenario 2 --method beam_search
 ```
 
 Configuration files for the results in the main body can be found in `configs/main_body`
@@ -193,10 +193,10 @@ python post_hoc_evaluate.py --results-dir results/your_experiment_directory --em
 
 Experiment results are saved in the `results/` directory, organized by experiment name and timestamp.
 
-The NeurIPS experiments specifically output to the `results/appendix/` and `results/main_body` directories. The results for the experiments in the appendix are organized as:
+The AAMAS experiments specifically output to the `results/appendix/` and `results/main_body` directories. The results for the experiments in the appendix are organized as:
 ```
 results/appendix/
-├── neurips_gemma_scenario1_beam_search_20250511_222741/
+├── AAMAS_gemma_scenario1_beam_search_20250511_222741/
 │   ├── config.yaml                # Configuration used
 │   ├── results.csv                # Raw results data
 │   └── evaluation/                # Evaluation results
